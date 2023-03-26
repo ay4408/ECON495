@@ -9,7 +9,7 @@
 # 1. Set Up Packages and Working Directory 
 #------------------------------------------------
 # 1.1 Install/Load Packages
-install.packages("expss")
+# install.packages("expss")
 library(expss)
 library(tidyverse)
 
@@ -24,7 +24,8 @@ IPEDS_raw <- read_rds("./Data/IPEDS/Exported IPEDS Data/IPEDS_raw.rds")
 #------------------------------------------------
 # 3. Clean Data
 #------------------------------------------------
-# TODO: Convert factor variables 
+# TODO: Look for erroneous values in data ESPECIALLY
+# cities.
 
 # 3.1 Drop old institution name and rename variables
 IPEDS <- IPEDS_raw %>%
@@ -47,7 +48,7 @@ IPEDS <- IPEDS_raw %>%
          titleiv = pset4flg,
          ugenroll = efugft,
          genroll = efgradft,
-         retention = ret_pcf,
+         pctret = ret_pcf,
          pctyoung = dvef14,
          pctold = dvef15,
          pctoos = rmousttp,
@@ -66,4 +67,21 @@ IPEDS <- IPEDS %>%
   mutate(rowid = row_number())
 
 # 3.4 Coerce factor variables
+cols_to_factor <- c("year", "newid", "alloncam", "room", "instsize",
+                    "fips", "region", "sector", "iclevel",
+                    "control", "deggrant", "locale", "titleiv")
 
+IPEDS[,cols_to_factor] <- lapply(IPEDS[cols_to_factor], as.factor)
+
+# 3.5 Coerce to percentages
+# Create function to divide by 100 (for use with dplyr)
+convert_to_pct <- function (x) {
+  x / 100
+}
+
+IPEDS <- IPEDS %>%
+  mutate(across(starts_with("pct"), convert_to_pct))
+#------------------------------------------------
+# 4. Export Data
+#------------------------------------------------
+saveRDS(IPEDS, "./Data/IPEDS/Exported IPEDS Data/IPEDS_cleaned.rds")

@@ -1,0 +1,1910 @@
+city	state
+Alexander City	ALABAMA
+Andalusia	ALABAMA
+Auburn	ALABAMA
+Auburn University	ALABAMA
+Bay Minette	ALABAMA
+Birmingham	ALABAMA
+Boaz	ALABAMA
+Deatsville	ALABAMA
+Dothan	ALABAMA
+Enterprise	ALABAMA
+Evergreen	ALABAMA
+Fairfield	ALABAMA
+Florence	ALABAMA
+Gadsden	ALABAMA
+Hanceville	ALABAMA
+Huntsville	ALABAMA
+Jacksonville	ALABAMA
+Jasper	ALABAMA
+Livingston	ALABAMA
+Marion	ALABAMA
+Mobile	ALABAMA
+Montevallo	ALABAMA
+Montgomery	ALABAMA
+Muscle Shoals	ALABAMA
+Normal	ALABAMA
+Phenix City	ALABAMA
+Rainsville	ALABAMA
+Selma	ALABAMA
+Talladega	ALABAMA
+Tanner	ALABAMA
+Troy	ALABAMA
+Tuscaloosa	ALABAMA
+Tuskegee	ALABAMA
+Wadley	ALABAMA
+Anchorage	ALASKA
+Barrow	ALASKA
+Fairbanks	ALASKA
+Glennallen	ALASKA
+Juneau	ALASKA
+Palmer	ALASKA
+Soldotna	ALASKA
+Avondale	ARIZONA
+Chandler	ARIZONA
+Coolidge	ARIZONA
+Douglas	ARIZONA
+Flagstaff	ARIZONA
+Glendale	ARIZONA
+Holbrook	ARIZONA
+Kingman	ARIZONA
+Mesa	ARIZONA
+Phoenix	ARIZONA
+Prescott	ARIZONA
+Scottsdale	ARIZONA
+Sells	ARIZONA
+Sierra Vista	ARIZONA
+Surprise	ARIZONA
+Tempe	ARIZONA
+Thatcher	ARIZONA
+Tsaile	ARIZONA
+Tucson	ARIZONA
+Yuma	ARIZONA
+Arkadelphia	ARKANSAS
+Batesville	ARKANSAS
+Beebe	ARKANSAS
+Bentonville	ARKANSAS
+Blytheville	ARKANSAS
+Camden	ARKANSAS
+Clarksville	ARKANSAS
+Conway	ARKANSAS
+De Queen	ARKANSAS
+El Dorado	ARKANSAS
+Fayetteville	ARKANSAS
+Forrest City	ARKANSAS
+Fort Smith	ARKANSAS
+Harrison	ARKANSAS
+Helena	ARKANSAS
+Hope	ARKANSAS
+Hot Springs	ARKANSAS
+Jonesboro	ARKANSAS
+Little Rock	ARKANSAS
+Magnolia	ARKANSAS
+Malvern	ARKANSAS
+Melbourne	ARKANSAS
+Mena	ARKANSAS
+Monticello	ARKANSAS
+Morrilton	ARKANSAS
+Mountain Home	ARKANSAS
+N Little Rock	ARKANSAS
+Newport	ARKANSAS
+North Little Rock	ARKANSAS
+Paragould	ARKANSAS
+Pine Bluff	ARKANSAS
+Pocahontas	ARKANSAS
+Russellville	ARKANSAS
+Searcy	ARKANSAS
+Siloam Springs	ARKANSAS
+Springdale	ARKANSAS
+Walnut Ridge	ARKANSAS
+West Memphis	ARKANSAS
+Alameda	CALIFORNIA
+Aliso Viejo	CALIFORNIA
+Anaheim	CALIFORNIA
+Angwin	CALIFORNIA
+Aptos	CALIFORNIA
+Arcata	CALIFORNIA
+Atherton	CALIFORNIA
+Azusa	CALIFORNIA
+Bakersfield	CALIFORNIA
+Barstow	CALIFORNIA
+Berkeley	CALIFORNIA
+Blythe	CALIFORNIA
+Burbank	CALIFORNIA
+Camarillo	CALIFORNIA
+Carson	CALIFORNIA
+Chico	CALIFORNIA
+Chula Vista	CALIFORNIA
+Claremont	CALIFORNIA
+Coalinga	CALIFORNIA
+Compton	CALIFORNIA
+Corona	CALIFORNIA
+Costa Mesa	CALIFORNIA
+Culver City	CALIFORNIA
+Cupertino	CALIFORNIA
+Cypress	CALIFORNIA
+Davis	CALIFORNIA
+El Cajon	CALIFORNIA
+El Dorado Hills	CALIFORNIA
+Escondido	CALIFORNIA
+Eureka	CALIFORNIA
+Fairfield	CALIFORNIA
+Folsom	CALIFORNIA
+Fountain Valley	CALIFORNIA
+Fremont	CALIFORNIA
+Fresno	CALIFORNIA
+Fullerton	CALIFORNIA
+Garden Grove	CALIFORNIA
+Gilroy	CALIFORNIA
+Glendale	CALIFORNIA
+Glendora	CALIFORNIA
+Hayward	CALIFORNIA
+Huntington Beach	CALIFORNIA
+Imperial	CALIFORNIA
+Irvine	CALIFORNIA
+Joshua Tree	CALIFORNIA
+Kentfield	CALIFORNIA
+La Jolla	CALIFORNIA
+La Mirada	CALIFORNIA
+La Puente	CALIFORNIA
+La Verne	CALIFORNIA
+Laguna Beach	CALIFORNIA
+Lancaster	CALIFORNIA
+Lemoore	CALIFORNIA
+Livermore	CALIFORNIA
+Long Beach	CALIFORNIA
+Los Alamitos	CALIFORNIA
+Los Altos Hills	CALIFORNIA
+Los Angeles	CALIFORNIA
+Malibu	CALIFORNIA
+Marysville	CALIFORNIA
+Merced	CALIFORNIA
+Mission Viejo	CALIFORNIA
+Modesto	CALIFORNIA
+Monterey	CALIFORNIA
+Monterey Park	CALIFORNIA
+Moorpark	CALIFORNIA
+Moraga	CALIFORNIA
+Moreno Valley	CALIFORNIA
+Napa	CALIFORNIA
+Norco	CALIFORNIA
+Northridge	CALIFORNIA
+Norwalk	CALIFORNIA
+Oakland	CALIFORNIA
+Oceanside	CALIFORNIA
+Orange	CALIFORNIA
+Oroville	CALIFORNIA
+Oxnard	CALIFORNIA
+Palm Desert	CALIFORNIA
+Pasadena	CALIFORNIA
+Pittsburg	CALIFORNIA
+Pleasant Hill	CALIFORNIA
+Pomona	CALIFORNIA
+Porterville	CALIFORNIA
+Quincy	CALIFORNIA
+Rancho Cucamonga	CALIFORNIA
+Rancho Palos Verdes	CALIFORNIA
+Redding	CALIFORNIA
+Redlands	CALIFORNIA
+Redwood City	CALIFORNIA
+Reedley	CALIFORNIA
+Ridgecrest	CALIFORNIA
+Riverside	CALIFORNIA
+Rocklin	CALIFORNIA
+Rohnert Park	CALIFORNIA
+Rosemead	CALIFORNIA
+Sacramento	CALIFORNIA
+Salinas	CALIFORNIA
+San Bernardino	CALIFORNIA
+San Bruno	CALIFORNIA
+San Diego	CALIFORNIA
+San Dimas	CALIFORNIA
+San Francisco	CALIFORNIA
+San Jacinto	CALIFORNIA
+San Jose	CALIFORNIA
+San Luis Obispo	CALIFORNIA
+San Marcos	CALIFORNIA
+San Mateo	CALIFORNIA
+San Pablo	CALIFORNIA
+San Rafael	CALIFORNIA
+Santa Ana	CALIFORNIA
+Santa Barbara	CALIFORNIA
+Santa Clara	CALIFORNIA
+Santa Clarita	CALIFORNIA
+Santa Cruz	CALIFORNIA
+Santa Fe Springs	CALIFORNIA
+Santa Maria	CALIFORNIA
+Santa Monica	CALIFORNIA
+Santa Paula	CALIFORNIA
+Santa Rosa	CALIFORNIA
+Santee	CALIFORNIA
+Saratoga	CALIFORNIA
+Seaside	CALIFORNIA
+Sonora	CALIFORNIA
+South Lake Tahoe	CALIFORNIA
+Stanford	CALIFORNIA
+Stockton	CALIFORNIA
+Susanville	CALIFORNIA
+Sylmar	CALIFORNIA
+Taft	CALIFORNIA
+Tarzana	CALIFORNIA
+Thousand Oaks	CALIFORNIA
+Torrance	CALIFORNIA
+Turlock	CALIFORNIA
+Ukiah	CALIFORNIA
+Valencia	CALIFORNIA
+Vallejo	CALIFORNIA
+Valley Glen	CALIFORNIA
+Van Nuys	CALIFORNIA
+Ventura	CALIFORNIA
+Victorville	CALIFORNIA
+Visalia	CALIFORNIA
+Walnut	CALIFORNIA
+Weed	CALIFORNIA
+Whittier	CALIFORNIA
+Wilmington	CALIFORNIA
+Woodland	CALIFORNIA
+Woodland Hills	CALIFORNIA
+Yucaipa	CALIFORNIA
+Alamosa	COLORADO
+Aurora	COLORADO
+Boulder	COLORADO
+Colorado Springs	COLORADO
+Denver	COLORADO
+Durango	COLORADO
+Fort  Morgan	COLORADO
+Fort Collins	COLORADO
+Glenwood Springs	COLORADO
+Golden	COLORADO
+Grand Junction	COLORADO
+Greeley	COLORADO
+Gunnison	COLORADO
+La Junta	COLORADO
+Lakewood	COLORADO
+Lamar	COLORADO
+Littleton	COLORADO
+Pueblo	COLORADO
+Rangely	COLORADO
+Sterling	COLORADO
+Trinidad	COLORADO
+USAF Academy	COLORADO
+USAFA	COLORADO
+Westminster	COLORADO
+Bridgeport	CONNECTICUT
+Cromwell	CONNECTICUT
+Danbury	CONNECTICUT
+Danielson	CONNECTICUT
+East Hartford	CONNECTICUT
+Enfield	CONNECTICUT
+Fairfield	CONNECTICUT
+Farmington	CONNECTICUT
+Groton	CONNECTICUT
+Hamden	CONNECTICUT
+Hartford	CONNECTICUT
+Manchester	CONNECTICUT
+Middletown	CONNECTICUT
+New Britain	CONNECTICUT
+New Haven	CONNECTICUT
+New London	CONNECTICUT
+Norwalk	CONNECTICUT
+Norwich	CONNECTICUT
+Stamford	CONNECTICUT
+Storrs	CONNECTICUT
+Waterbury	CONNECTICUT
+West Hartford	CONNECTICUT
+West Haven	CONNECTICUT
+Willimantic	CONNECTICUT
+Winsted	CONNECTICUT
+Dover	DELAWARE
+New Castle	DELAWARE
+Newark	DELAWARE
+Wilmington	DELAWARE
+Washington	DISTRICT OF COLUMBIA
+Altamonte Springs	FLORIDA
+Ave Maria	FLORIDA
+Avon Park	FLORIDA
+Babson Park	FLORIDA
+Boca Raton	FLORIDA
+Bradenton	FLORIDA
+Casselberry	FLORIDA
+Clearwater	FLORIDA
+Cocoa	FLORIDA
+Coral Gables	FLORIDA
+Davie	FLORIDA
+Daytona Beach	FLORIDA
+Deerfield Beach	FLORIDA
+DeLand	FLORIDA
+Fort Lauderdale	FLORIDA
+Fort Myers	FLORIDA
+Fort Pierce	FLORIDA
+Gainesville	FLORIDA
+Graceville	FLORIDA
+Hobe Sound	FLORIDA
+Hollywood	FLORIDA
+Jacksonville	FLORIDA
+Key West	FLORIDA
+Kissimmee	FLORIDA
+Lake City	FLORIDA
+Lake Wales	FLORIDA
+Lake Worth	FLORIDA
+Lakeland	FLORIDA
+Largo	FLORIDA
+Lauderhill	FLORIDA
+Leesburg	FLORIDA
+Madison	FLORIDA
+Marianna	FLORIDA
+Melbourne	FLORIDA
+Miami	FLORIDA
+Miami Beach	FLORIDA
+Miami Gardens	FLORIDA
+Miramar	FLORIDA
+Naples	FLORIDA
+New Port Richey	FLORIDA
+Niceville	FLORIDA
+Ocala	FLORIDA
+Orlando	FLORIDA
+Palatka	FLORIDA
+Panama City	FLORIDA
+Pensacola	FLORIDA
+Saint Augustine	FLORIDA
+Saint Leo	FLORIDA
+Saint Petersburg	FLORIDA
+Sanford	FLORIDA
+Sarasota	FLORIDA
+Tallahassee	FLORIDA
+Tampa	FLORIDA
+Temple Terrace	FLORIDA
+Trinity	FLORIDA
+West Palm Beach	FLORIDA
+Winter Haven	FLORIDA
+Winter Park	FLORIDA
+Albany	GEORGIA
+Americus	GEORGIA
+Athens	GEORGIA
+Atlanta	GEORGIA
+Augusta	GEORGIA
+Barnesville	GEORGIA
+Brunswick	GEORGIA
+Carrollton	GEORGIA
+Clarkesville	GEORGIA
+Clarkston	GEORGIA
+Cleveland	GEORGIA
+Columbus	GEORGIA
+Cuthbert	GEORGIA
+Dahlonega	GEORGIA
+Dalton	GEORGIA
+Decatur	GEORGIA
+Demorest	GEORGIA
+Douglas	GEORGIA
+East Point	GEORGIA
+Fort Valley	GEORGIA
+Franklin Springs	GEORGIA
+Gainesville	GEORGIA
+Griffin	GEORGIA
+Kennesaw	GEORGIA
+Lagrange	GEORGIA
+Lawrenceville	GEORGIA
+Lithonia	GEORGIA
+Lookout Mountain	GEORGIA
+Macon	GEORGIA
+Marietta	GEORGIA
+Milledgeville	GEORGIA
+Morrow	GEORGIA
+Mount Berry	GEORGIA
+Mount Vernon	GEORGIA
+Norcross	GEORGIA
+Oakwood	GEORGIA
+Oxford	GEORGIA
+Rome	GEORGIA
+Sandersville	GEORGIA
+Savannah	GEORGIA
+Statesboro	GEORGIA
+Swainsboro	GEORGIA
+Thomasville	GEORGIA
+Tifton	GEORGIA
+Toccoa Falls	GEORGIA
+Valdosta	GEORGIA
+Vidalia	GEORGIA
+Waco	GEORGIA
+Waleska	GEORGIA
+Warner Robins	GEORGIA
+Waycross	GEORGIA
+West Point	GEORGIA
+Young Harris	GEORGIA
+Hilo	HAWAII
+Honolulu	HAWAII
+Kahului	HAWAII
+Kaneohe	HAWAII
+Kapolei	HAWAII
+Laie	HAWAII
+Lihue	HAWAII
+Pearl City	HAWAII
+Boise	IDAHO
+Caldwell	IDAHO
+Coeur d'Alene	IDAHO
+Idaho Falls	IDAHO
+Lewiston	IDAHO
+Moscow	IDAHO
+Nampa	IDAHO
+Pocatello	IDAHO
+Rexburg	IDAHO
+Twin Falls	IDAHO
+Aurora	ILLINOIS
+Belleville	ILLINOIS
+Bloomington	ILLINOIS
+Bourbonnais	ILLINOIS
+Canton	ILLINOIS
+Carbondale	ILLINOIS
+Carlinville	ILLINOIS
+Carterville	ILLINOIS
+Centralia	ILLINOIS
+Champaign	ILLINOIS
+Charleston	ILLINOIS
+Chicago	ILLINOIS
+Chicago Heights	ILLINOIS
+Cicero	ILLINOIS
+Crystal Lake	ILLINOIS
+Danville	ILLINOIS
+Decatur	ILLINOIS
+Deerfield	ILLINOIS
+Dekalb	ILLINOIS
+Des Plaines	ILLINOIS
+Dixon	ILLINOIS
+East Peoria	ILLINOIS
+Edwardsville	ILLINOIS
+Elgin	ILLINOIS
+Elmhurst	ILLINOIS
+Eureka	ILLINOIS
+Evanston	ILLINOIS
+Freeport	ILLINOIS
+Galesburg	ILLINOIS
+Glen Ellyn	ILLINOIS
+Godfrey	ILLINOIS
+Grayslake	ILLINOIS
+Greenville	ILLINOIS
+Harrisburg	ILLINOIS
+Ina	ILLINOIS
+Jacksonville	ILLINOIS
+Joliet	ILLINOIS
+Kankakee	ILLINOIS
+Lake Forest	ILLINOIS
+Lebanon	ILLINOIS
+Lincoln	ILLINOIS
+Lisle	ILLINOIS
+Macomb	ILLINOIS
+Malta	ILLINOIS
+Mattoon	ILLINOIS
+Moline	ILLINOIS
+Monmouth	ILLINOIS
+Morrison	ILLINOIS
+Naperville	ILLINOIS
+Normal	ILLINOIS
+Oglesby	ILLINOIS
+Olney	ILLINOIS
+Palatine	ILLINOIS
+Palos Heights	ILLINOIS
+Palos Hills	ILLINOIS
+Peoria	ILLINOIS
+Quincy	ILLINOIS
+River Forest	ILLINOIS
+River Grove	ILLINOIS
+Rock Island	ILLINOIS
+Rockford	ILLINOIS
+Romeoville	ILLINOIS
+Skokie	ILLINOIS
+South Holland	ILLINOIS
+Springfield	ILLINOIS
+Sugar Grove	ILLINOIS
+Ullin	ILLINOIS
+University Park	ILLINOIS
+Wheaton	ILLINOIS
+Anderson	INDIANA
+Angola	INDIANA
+Bloomington	INDIANA
+Crawfordsville	INDIANA
+Evansville	INDIANA
+Fort Wayne	INDIANA
+Franklin	INDIANA
+Gary	INDIANA
+Goshen	INDIANA
+Greencastle	INDIANA
+Hammond	INDIANA
+Hanover	INDIANA
+Huntington	INDIANA
+Indianapolis	INDIANA
+Jeffersonville	INDIANA
+Kokomo	INDIANA
+Marion	INDIANA
+Mishawaka	INDIANA
+Muncie	INDIANA
+New Albany	INDIANA
+North Manchester	INDIANA
+Notre Dame	INDIANA
+Oakland City	INDIANA
+Richmond	INDIANA
+Saint Mary-Of-The-Woods	INDIANA
+Saint Mary of the Woods	INDIANA
+South Bend	INDIANA
+Terre Haute	INDIANA
+Upland	INDIANA
+Valparaiso	INDIANA
+Vincennes	INDIANA
+West Lafayette	INDIANA
+Westfield	INDIANA
+Whiting	INDIANA
+Winona Lake	INDIANA
+Ames	IOWA
+Ankeny	IOWA
+Calmar	IOWA
+Cedar Falls	IOWA
+Cedar Rapids	IOWA
+Council Bluffs	IOWA
+Creston	IOWA
+Davenport	IOWA
+Decorah	IOWA
+Des Moines	IOWA
+Dubuque	IOWA
+Epworth	IOWA
+Estherville	IOWA
+Fairfield	IOWA
+Fayette	IOWA
+Fort Dodge	IOWA
+Grinnell	IOWA
+Indianola	IOWA
+Iowa City	IOWA
+Iowa Falls	IOWA
+Lamoni	IOWA
+Marshalltown	IOWA
+Mason City	IOWA
+Mount Pleasant	IOWA
+Mount Vernon	IOWA
+Orange City	IOWA
+Oskaloosa	IOWA
+Ottumwa	IOWA
+Pella	IOWA
+Sheldon	IOWA
+Sioux Center	IOWA
+Sioux City	IOWA
+Storm Lake	IOWA
+Waterloo	IOWA
+Waverly	IOWA
+West Burlington	IOWA
+Arkansas City	KANSAS
+Atchison	KANSAS
+Baldwin City	KANSAS
+Beloit	KANSAS
+Chanute	KANSAS
+Coffeyville	KANSAS
+Colby	KANSAS
+Concordia	KANSAS
+Dodge City	KANSAS
+El Dorado	KANSAS
+Emporia	KANSAS
+Fort Scott	KANSAS
+Garden City	KANSAS
+Goodland	KANSAS
+Great Bend	KANSAS
+Haviland	KANSAS
+Hays	KANSAS
+Hesston	KANSAS
+Highland	KANSAS
+Hillsboro	KANSAS
+Hutchinson	KANSAS
+Independence	KANSAS
+Iola	KANSAS
+Kansas City	KANSAS
+Lawrence	KANSAS
+Leavenworth	KANSAS
+Liberal	KANSAS
+Lindsborg	KANSAS
+Manhattan	KANSAS
+McPherson	KANSAS
+North Newton	KANSAS
+Olathe	KANSAS
+Ottawa	KANSAS
+Overland Park	KANSAS
+Parsons	KANSAS
+Pittsburg	KANSAS
+Pratt	KANSAS
+Salina	KANSAS
+Sterling	KANSAS
+Topeka	KANSAS
+Wichita	KANSAS
+Winfield	KANSAS
+Ashland	KENTUCKY
+Barbourville	KENTUCKY
+Berea	KENTUCKY
+Bowling Green	KENTUCKY
+Campbellsville	KENTUCKY
+Columbia	KENTUCKY
+Crestview Hills	KENTUCKY
+Cumberland	KENTUCKY
+Danville	KENTUCKY
+Elizabethtown	KENTUCKY
+Florence	KENTUCKY
+Frankfort	KENTUCKY
+Georgetown	KENTUCKY
+Grayson	KENTUCKY
+Hazard	KENTUCKY
+Henderson	KENTUCKY
+Highland Heights	KENTUCKY
+Hopkinsville	KENTUCKY
+Jackson	KENTUCKY
+Lexington	KENTUCKY
+Louisville	KENTUCKY
+Madisonville	KENTUCKY
+Maysville	KENTUCKY
+Midway	KENTUCKY
+Morehead	KENTUCKY
+Murray	KENTUCKY
+Owensboro	KENTUCKY
+Paducah	KENTUCKY
+Pikeville	KENTUCKY
+Pineville	KENTUCKY
+Pippa Passes	KENTUCKY
+Prestonsburg	KENTUCKY
+Richmond	KENTUCKY
+Somerset	KENTUCKY
+Vancleve	KENTUCKY
+Williamsburg	KENTUCKY
+Wilmore	KENTUCKY
+Alexandria	LOUISIANA
+Baton Rouge	LOUISIANA
+Bogalusa	LOUISIANA
+Bossier City	LOUISIANA
+Chalmette	LOUISIANA
+Eunice	LOUISIANA
+Gonzales	LOUISIANA
+Grambling	LOUISIANA
+Hammond	LOUISIANA
+Houma	LOUISIANA
+Kenner	LOUISIANA
+Lacombe	LOUISIANA
+Lafayette	LOUISIANA
+Lake Charles	LOUISIANA
+Minden	LOUISIANA
+Monroe	LOUISIANA
+Natchitoches	LOUISIANA
+New Orleans	LOUISIANA
+Pineville	LOUISIANA
+Ruston	LOUISIANA
+Schriever	LOUISIANA
+Shreveport	LOUISIANA
+Sorrento	LOUISIANA
+St. Benedict	LOUISIANA
+Thibodaux	LOUISIANA
+Arundel	MAINE
+Auburn	MAINE
+Augusta	MAINE
+Bangor	MAINE
+Bar Harbor	MAINE
+Biddeford	MAINE
+Brunswick	MAINE
+Calais	MAINE
+Castine	MAINE
+Fairfield	MAINE
+Farmington	MAINE
+Fort Kent	MAINE
+Lewiston	MAINE
+Orono	MAINE
+Portland	MAINE
+Presque Isle	MAINE
+South Portland	MAINE
+Standish	MAINE
+Unity	MAINE
+Waterville	MAINE
+Wells	MAINE
+Adelphi	MARYLAND
+Annapolis	MARYLAND
+Arnold	MARYLAND
+Baltimore	MARYLAND
+Bel Air	MARYLAND
+Bowie	MARYLAND
+Capitol Heights	MARYLAND
+Chestertown	MARYLAND
+College Park	MARYLAND
+Columbia	MARYLAND
+Cumberland	MARYLAND
+Emmitsburg	MARYLAND
+Frederick	MARYLAND
+Frostburg	MARYLAND
+Hagerstown	MARYLAND
+La Plata	MARYLAND
+Largo	MARYLAND
+Laurel	MARYLAND
+McHenry	MARYLAND
+North East	MARYLAND
+Princess Anne	MARYLAND
+Rockville	MARYLAND
+Salisbury	MARYLAND
+Silver  Spring	MARYLAND
+St. Mary's City	MARYLAND
+Stevenson	MARYLAND
+Takoma Park	MARYLAND
+Towson	MARYLAND
+Westminster	MARYLAND
+Wye Mills	MARYLAND
+Amherst	MASSACHUSETTS
+Babson Park	MASSACHUSETTS
+Bedford	MASSACHUSETTS
+Beverly	MASSACHUSETTS
+Boston	MASSACHUSETTS
+Bridgewater	MASSACHUSETTS
+Brockton	MASSACHUSETTS
+Brookline	MASSACHUSETTS
+Buzzards Bay	MASSACHUSETTS
+Cambridge	MASSACHUSETTS
+Chestnut Hill	MASSACHUSETTS
+Chicopee	MASSACHUSETTS
+Danvers	MASSACHUSETTS
+Dudley	MASSACHUSETTS
+Easton	MASSACHUSETTS
+Fall River	MASSACHUSETTS
+Fitchburg	MASSACHUSETTS
+Framingham	MASSACHUSETTS
+Franklin	MASSACHUSETTS
+Gardner	MASSACHUSETTS
+Great Barrington	MASSACHUSETTS
+Greenfield	MASSACHUSETTS
+Haverhill	MASSACHUSETTS
+Holyoke	MASSACHUSETTS
+Longmeadow	MASSACHUSETTS
+Lowell	MASSACHUSETTS
+Medford	MASSACHUSETTS
+Milton	MASSACHUSETTS
+Needham	MASSACHUSETTS
+Newton	MASSACHUSETTS
+North Adams	MASSACHUSETTS
+North Andover	MASSACHUSETTS
+North Dartmouth	MASSACHUSETTS
+Northampton	MASSACHUSETTS
+Norton	MASSACHUSETTS
+Paxton	MASSACHUSETTS
+Pittsfield	MASSACHUSETTS
+Quincy	MASSACHUSETTS
+Roxbury Crossing	MASSACHUSETTS
+Salem	MASSACHUSETTS
+South Hadley	MASSACHUSETTS
+Springfield	MASSACHUSETTS
+Waltham	MASSACHUSETTS
+Wellesley	MASSACHUSETTS
+Wellesley Hills	MASSACHUSETTS
+Wenham	MASSACHUSETTS
+West Barnstable	MASSACHUSETTS
+Westfield	MASSACHUSETTS
+Weston	MASSACHUSETTS
+Williamstown	MASSACHUSETTS
+Worcester	MASSACHUSETTS
+Adrian	MICHIGAN
+Albion	MICHIGAN
+Allendale	MICHIGAN
+Alma	MICHIGAN
+Alpena	MICHIGAN
+Ann Arbor	MICHIGAN
+Baraga	MICHIGAN
+Battle Creek	MICHIGAN
+Benton Harbor	MICHIGAN
+Berrien Springs	MICHIGAN
+Big Rapids	MICHIGAN
+Bloomfield Hills	MICHIGAN
+Brimley	MICHIGAN
+Centreville	MICHIGAN
+Dearborn	MICHIGAN
+Detroit	MICHIGAN
+Dowagiac	MICHIGAN
+East Lansing	MICHIGAN
+Escanaba	MICHIGAN
+Flint	MICHIGAN
+Grand Rapids	MICHIGAN
+Grayling	MICHIGAN
+Hancock	MICHIGAN
+Harrison	MICHIGAN
+Holland	MICHIGAN
+Houghton	MICHIGAN
+Howell	MICHIGAN
+Ironwood	MICHIGAN
+Jackson	MICHIGAN
+Kalamazoo	MICHIGAN
+Lansing	MICHIGAN
+Livonia	MICHIGAN
+Marquette	MICHIGAN
+Midland	MICHIGAN
+Monroe	MICHIGAN
+Mount Pleasant	MICHIGAN
+Muskegon	MICHIGAN
+Oak Park	MICHIGAN
+Olivet	MICHIGAN
+Owosso	MICHIGAN
+Petoskey	MICHIGAN
+Port Huron	MICHIGAN
+Rochester Hills	MICHIGAN
+Roscommon	MICHIGAN
+Sault Ste Marie	MICHIGAN
+Scottville	MICHIGAN
+Sidney	MICHIGAN
+Southfield	MICHIGAN
+Spring Arbor	MICHIGAN
+Traverse City	MICHIGAN
+University Center	MICHIGAN
+Warren	MICHIGAN
+Wyoming	MICHIGAN
+Ypsilanti	MICHIGAN
+Alexandria	MINNESOTA
+Anoka	MINNESOTA
+Austin	MINNESOTA
+Bemidji	MINNESOTA
+Bloomington	MINNESOTA
+Brainerd	MINNESOTA
+Brooklyn Park	MINNESOTA
+Cass Lake	MINNESOTA
+Cloquet	MINNESOTA
+Collegeville	MINNESOTA
+Coon Rapids	MINNESOTA
+Crookston	MINNESOTA
+Duluth	MINNESOTA
+Ely	MINNESOTA
+Fergus Falls	MINNESOTA
+Grand Rapids	MINNESOTA
+Granite Falls	MINNESOTA
+Hibbing	MINNESOTA
+International Falls	MINNESOTA
+Inver Grove Heights	MINNESOTA
+Mahnomen	MINNESOTA
+Mankato	MINNESOTA
+Marshall	MINNESOTA
+Minneapolis	MINNESOTA
+Moorhead	MINNESOTA
+Morris	MINNESOTA
+New Ulm	MINNESOTA
+North Mankato	MINNESOTA
+Northfield	MINNESOTA
+Pine City	MINNESOTA
+Red Lake	MINNESOTA
+Rochester	MINNESOTA
+Rosemount	MINNESOTA
+Saint Bonifacius	MINNESOTA
+Saint Cloud	MINNESOTA
+Saint Joseph	MINNESOTA
+Saint Paul	MINNESOTA
+Saint Peter	MINNESOTA
+St. Louis Park	MINNESOTA
+Thief River Falls	MINNESOTA
+Virginia	MINNESOTA
+White Bear Lake	MINNESOTA
+Willmar	MINNESOTA
+Winona	MINNESOTA
+Alcorn State	MISSISSIPPI
+Blue Mountain	MISSISSIPPI
+Booneville	MISSISSIPPI
+Clarksdale	MISSISSIPPI
+Cleveland	MISSISSIPPI
+Clinton	MISSISSIPPI
+Columbus	MISSISSIPPI
+Decatur	MISSISSIPPI
+Ellisville	MISSISSIPPI
+Fulton	MISSISSIPPI
+Goodman	MISSISSIPPI
+Hattiesburg	MISSISSIPPI
+Holly Springs	MISSISSIPPI
+Itta Bena	MISSISSIPPI
+Jackson	MISSISSIPPI
+Laurel	MISSISSIPPI
+Meridian	MISSISSIPPI
+Mississippi State	MISSISSIPPI
+Moorhead	MISSISSIPPI
+Perkinston	MISSISSIPPI
+Poplarville	MISSISSIPPI
+Raymond	MISSISSIPPI
+Ridgeland	MISSISSIPPI
+Scooba	MISSISSIPPI
+Senatobia	MISSISSIPPI
+Summit	MISSISSIPPI
+Tougaloo	MISSISSIPPI
+University	MISSISSIPPI
+Wesson	MISSISSIPPI
+Bolivar	MISSOURI
+Bridgeton	MISSOURI
+Canton	MISSOURI
+Cape Girardeau	MISSOURI
+Chesterfield	MISSOURI
+Columbia	MISSOURI
+Conception	MISSOURI
+Cottleville	MISSOURI
+Fayette	MISSOURI
+Florissant	MISSOURI
+Fulton	MISSOURI
+Hannibal	MISSOURI
+Hillsboro	MISSOURI
+Houston	MISSOURI
+Jefferson City	MISSOURI
+Joplin	MISSOURI
+Kansas City	MISSOURI
+Kirksville	MISSOURI
+Lees Summit	MISSOURI
+Liberty	MISSOURI
+Linn	MISSOURI
+Marshall	MISSOURI
+Maryville	MISSOURI
+Moberly	MISSOURI
+Neosho	MISSOURI
+Nevada	MISSOURI
+Park Hills	MISSOURI
+Parkville	MISSOURI
+Point Lookout	MISSOURI
+Poplar Bluff	MISSOURI
+Rolla	MISSOURI
+Saint Charles	MISSOURI
+Saint Joseph	MISSOURI
+Saint Louis	MISSOURI
+Sedalia	MISSOURI
+Springfield	MISSOURI
+Trenton	MISSOURI
+Union	MISSOURI
+Warrensburg	MISSOURI
+Wentzville	MISSOURI
+West Plains	MISSOURI
+Billings	MONTANA
+Box Elder	MONTANA
+Bozeman	MONTANA
+Browning	MONTANA
+Butte	MONTANA
+Crow Agency	MONTANA
+Dillon	MONTANA
+Glendive	MONTANA
+Great Falls	MONTANA
+Harlem	MONTANA
+Havre	MONTANA
+Helena	MONTANA
+Kalispell	MONTANA
+Lame Deer	MONTANA
+Miles City	MONTANA
+Missoula	MONTANA
+Pablo	MONTANA
+Poplar	MONTANA
+Bellevue	NEBRASKA
+Chadron	NEBRASKA
+Crete	NEBRASKA
+Curtis	NEBRASKA
+Fremont	NEBRASKA
+Gering	NEBRASKA
+Grand Island	NEBRASKA
+Hastings	NEBRASKA
+Kearney	NEBRASKA
+Lincoln	NEBRASKA
+Macy	NEBRASKA
+Norfolk	NEBRASKA
+North Platte	NEBRASKA
+Omaha	NEBRASKA
+Peru	NEBRASKA
+Scottsbluff	NEBRASKA
+Seward	NEBRASKA
+Wayne	NEBRASKA
+Winnebago	NEBRASKA
+York	NEBRASKA
+Carson City	NEVADA
+Elko	NEVADA
+Henderson	NEVADA
+Incline Village	NEVADA
+Las Vegas	NEVADA
+Reno	NEVADA
+Berlin	NEW HAMPSHIRE
+Claremont	NEW HAMPSHIRE
+Concord	NEW HAMPSHIRE
+Durham	NEW HAMPSHIRE
+Hanover	NEW HAMPSHIRE
+Henniker	NEW HAMPSHIRE
+Keene	NEW HAMPSHIRE
+Laconia	NEW HAMPSHIRE
+Manchester	NEW HAMPSHIRE
+Merrimack	NEW HAMPSHIRE
+Nashua	NEW HAMPSHIRE
+New London	NEW HAMPSHIRE
+Plymouth	NEW HAMPSHIRE
+Portsmouth	NEW HAMPSHIRE
+Rindge	NEW HAMPSHIRE
+Warner	NEW HAMPSHIRE
+Adelphia	NEW JERSEY
+Belmar	NEW JERSEY
+Blackwood	NEW JERSEY
+Bloomfield	NEW JERSEY
+Branchburg	NEW JERSEY
+Caldwell	NEW JERSEY
+Camden	NEW JERSEY
+Carneys Point	NEW JERSEY
+Cranford	NEW JERSEY
+Edison	NEW JERSEY
+Elizabeth	NEW JERSEY
+Ewing	NEW JERSEY
+Galloway	NEW JERSEY
+Glassboro	NEW JERSEY
+Hackettstown	NEW JERSEY
+Hoboken	NEW JERSEY
+Howell	NEW JERSEY
+Jersey City	NEW JERSEY
+Keyport	NEW JERSEY
+Lakewood	NEW JERSEY
+Lawrenceville	NEW JERSEY
+Lincroft	NEW JERSEY
+Linden	NEW JERSEY
+Lodi	NEW JERSEY
+Madison	NEW JERSEY
+Mahwah	NEW JERSEY
+Mays Landing	NEW JERSEY
+Montclair	NEW JERSEY
+Morristown	NEW JERSEY
+Mount Laurel	NEW JERSEY
+New Brunswick	NEW JERSEY
+Newark	NEW JERSEY
+Newton	NEW JERSEY
+North Plainfield	NEW JERSEY
+Paramus	NEW JERSEY
+Paterson	NEW JERSEY
+Pemberton	NEW JERSEY
+Pomona	NEW JERSEY
+Princeton	NEW JERSEY
+Randolph	NEW JERSEY
+Sewell	NEW JERSEY
+South Orange	NEW JERSEY
+Teaneck	NEW JERSEY
+Toms River	NEW JERSEY
+Trenton	NEW JERSEY
+Union	NEW JERSEY
+Vineland	NEW JERSEY
+Washington	NEW JERSEY
+Wayne	NEW JERSEY
+West Long Branch	NEW JERSEY
+West Windsor	NEW JERSEY
+Zarephath	NEW JERSEY
+Alamogordo	NEW MEXICO
+Albuquerque	NEW MEXICO
+Carlsbad	NEW MEXICO
+Clovis	NEW MEXICO
+Crownpoint	NEW MEXICO
+Espanola	NEW MEXICO
+Farmington	NEW MEXICO
+Gallup	NEW MEXICO
+Grants	NEW MEXICO
+Hobbs	NEW MEXICO
+Las Cruces	NEW MEXICO
+Las Vegas	NEW MEXICO
+Los Alamos	NEW MEXICO
+Los Lunas	NEW MEXICO
+Portales	NEW MEXICO
+Ranchos de Taos	NEW MEXICO
+Roswell	NEW MEXICO
+Ruidoso	NEW MEXICO
+Santa Fe	NEW MEXICO
+Silver City	NEW MEXICO
+Socorro	NEW MEXICO
+Tucumcari	NEW MEXICO
+Albany	NEW YORK
+Alfred	NEW YORK
+Amherst	NEW YORK
+Annandale-On-Hudson	NEW YORK
+Auburn	NEW YORK
+Aurora	NEW YORK
+Batavia	NEW YORK
+Bayside	NEW YORK
+Binghamton	NEW YORK
+Brockport	NEW YORK
+Bronx	NEW YORK
+Bronxville	NEW YORK
+Brooklym	NEW YORK
+Brooklyn	NEW YORK
+Brooklyn Heights	NEW YORK
+Brookville	NEW YORK
+Buffalo	NEW YORK
+Canandaigua	NEW YORK
+Canton	NEW YORK
+Cazenovia	NEW YORK
+Clinton	NEW YORK
+Cobleskill	NEW YORK
+Corning	NEW YORK
+Cortland	NEW YORK
+Delhi	NEW YORK
+Dobbs Ferry	NEW YORK
+Dryden	NEW YORK
+Elmira	NEW YORK
+Far Rockaway	NEW YORK
+Farmingdale	NEW YORK
+Flushing	NEW YORK
+Fredonia	NEW YORK
+Garden City	NEW YORK
+Geneseo	NEW YORK
+Geneva	NEW YORK
+Glen Cove	NEW YORK
+Greenfield Park	NEW YORK
+Hamburg	NEW YORK
+Hamilton	NEW YORK
+Hempstead	NEW YORK
+Herkimer	NEW YORK
+Houghton	NEW YORK
+Hudson	NEW YORK
+Hyde Park	NEW YORK
+Ithaca	NEW YORK
+Jamaica	NEW YORK
+Jamestown	NEW YORK
+Johnson City	NEW YORK
+Johnstown	NEW YORK
+Keuka Park	NEW YORK
+Kew Gardens	NEW YORK
+Kings Point	NEW YORK
+Lawrence	NEW YORK
+Lima	NEW YORK
+Loch Sheldrake	NEW YORK
+Long Beach	NEW YORK
+Long Island City	NEW YORK
+Loudonville	NEW YORK
+Middletown	NEW YORK
+Monroe	NEW YORK
+Monsey	NEW YORK
+Morrisville	NEW YORK
+Mount Kisco	NEW YORK
+Mount Vernon	NEW YORK
+New Paltz	NEW YORK
+New Rochelle	NEW YORK
+New Windsor	NEW YORK
+New York	NEW YORK
+Newburgh	NEW YORK
+Niagara University	NEW YORK
+Nyack	NEW YORK
+Old Westbury	NEW YORK
+Oneonta	NEW YORK
+Orangeburg	NEW YORK
+Ossining	NEW YORK
+Oswego	NEW YORK
+Paul Smiths	NEW YORK
+Peekskill	NEW YORK
+Plattsburgh	NEW YORK
+Potsdam	NEW YORK
+Poughkeepsie	NEW YORK
+Purchase	NEW YORK
+Queens	NEW YORK
+Queensbury	NEW YORK
+Riverdale	NEW YORK
+Rochester	NEW YORK
+Rockville Centre	NEW YORK
+Saint Bonaventure	NEW YORK
+Sanborn	NEW YORK
+Saranac Lake	NEW YORK
+Saratoga Springs	NEW YORK
+Schenectady	NEW YORK
+Selden	NEW YORK
+South Fallsburg	NEW YORK
+South Fallsburgh	NEW YORK
+Sparkill	NEW YORK
+Spring Valley	NEW YORK
+Staten Island	NEW YORK
+Stone Ridge	NEW YORK
+Stony Brook	NEW YORK
+Suffern	NEW YORK
+Syosset	NEW YORK
+Syracuse	NEW YORK
+Throggs Neck	NEW YORK
+Troy	NEW YORK
+Utica	NEW YORK
+Valhalla	NEW YORK
+Vestal	NEW YORK
+Watertown	NEW YORK
+West  Point	NEW YORK
+Ahoskie	NORTH CAROLINA
+Albemarle	NORTH CAROLINA
+Asheboro	NORTH CAROLINA
+Asheville	NORTH CAROLINA
+Banner Elk	NORTH CAROLINA
+Belmont	NORTH CAROLINA
+Boiling Springs	NORTH CAROLINA
+Bolivia	NORTH CAROLINA
+Boone	NORTH CAROLINA
+Brevard	NORTH CAROLINA
+Buies Creek	NORTH CAROLINA
+Chapel Hill	NORTH CAROLINA
+Charlotte	NORTH CAROLINA
+Clinton	NORTH CAROLINA
+Clyde	NORTH CAROLINA
+Concord	NORTH CAROLINA
+Cullowhee	NORTH CAROLINA
+Dallas	NORTH CAROLINA
+Davidson	NORTH CAROLINA
+Dobson	NORTH CAROLINA
+Dublin	NORTH CAROLINA
+Durham	NORTH CAROLINA
+Elizabeth City	NORTH CAROLINA
+Elon	NORTH CAROLINA
+Fayetteville	NORTH CAROLINA
+Flat Rock	NORTH CAROLINA
+Goldsboro	NORTH CAROLINA
+Graham	NORTH CAROLINA
+Grantsboro	NORTH CAROLINA
+Greensboro	NORTH CAROLINA
+Greenville	NORTH CAROLINA
+Hamlet	NORTH CAROLINA
+Henderson	NORTH CAROLINA
+Hickory	NORTH CAROLINA
+High Point	NORTH CAROLINA
+Hudson	NORTH CAROLINA
+Jacksonville	NORTH CAROLINA
+Jamestown	NORTH CAROLINA
+Kenansville	NORTH CAROLINA
+Kinston	NORTH CAROLINA
+Laurinburg	NORTH CAROLINA
+Louisburg	NORTH CAROLINA
+Lumberton	NORTH CAROLINA
+Marion	NORTH CAROLINA
+Mars Hill	NORTH CAROLINA
+Misenheimer	NORTH CAROLINA
+Montreat	NORTH CAROLINA
+Morehead City	NORTH CAROLINA
+Morganton	NORTH CAROLINA
+Mount Olive	NORTH CAROLINA
+Murfreesboro	NORTH CAROLINA
+Murphy	NORTH CAROLINA
+New Bern	NORTH CAROLINA
+Pembroke	NORTH CAROLINA
+Pinehurst	NORTH CAROLINA
+Polkton	NORTH CAROLINA
+Raleigh	NORTH CAROLINA
+Rocky Mount	NORTH CAROLINA
+Roxboro	NORTH CAROLINA
+Salisbury	NORTH CAROLINA
+Sanford	NORTH CAROLINA
+Shelby	NORTH CAROLINA
+Smithfield	NORTH CAROLINA
+Spindale	NORTH CAROLINA
+Spruce Pine	NORTH CAROLINA
+Statesville	NORTH CAROLINA
+Swannanoa	NORTH CAROLINA
+Sylva	NORTH CAROLINA
+Tarboro	NORTH CAROLINA
+Thomasville	NORTH CAROLINA
+Troy	NORTH CAROLINA
+Wake Forest	NORTH CAROLINA
+Washington	NORTH CAROLINA
+Weldon	NORTH CAROLINA
+Wendell	NORTH CAROLINA
+Wentworth	NORTH CAROLINA
+Whiteville	NORTH CAROLINA
+Wilkesboro	NORTH CAROLINA
+Williamston	NORTH CAROLINA
+Wilmington	NORTH CAROLINA
+Wilson	NORTH CAROLINA
+Wingate	NORTH CAROLINA
+Winston-Salem	NORTH CAROLINA
+Winston Salem	NORTH CAROLINA
+Winterville	NORTH CAROLINA
+Belcourt	NORTH DAKOTA
+Bismarck	NORTH DAKOTA
+Bottineau	NORTH DAKOTA
+Devils Lake	NORTH DAKOTA
+Dickinson	NORTH DAKOTA
+Ellendale	NORTH DAKOTA
+Fargo	NORTH DAKOTA
+Fort Totten	NORTH DAKOTA
+Fort Yates	NORTH DAKOTA
+Grand Forks	NORTH DAKOTA
+Jamestown	NORTH DAKOTA
+Mayville	NORTH DAKOTA
+Minot	NORTH DAKOTA
+New Town	NORTH DAKOTA
+Valley City	NORTH DAKOTA
+Wahpeton	NORTH DAKOTA
+Williston	NORTH DAKOTA
+Ada	OHIO
+Akron	OHIO
+Alliance	OHIO
+Archbold	OHIO
+Ashland	OHIO
+Ashtabula	OHIO
+Athens	OHIO
+Batavia	OHIO
+Berea	OHIO
+Blue Ash	OHIO
+Bluffton	OHIO
+Bowling Green	OHIO
+Burton	OHIO
+Canal Winchester	OHIO
+Canton	OHIO
+Cedarville	OHIO
+Celina	OHIO
+Chillicothe	OHIO
+Cincinnati	OHIO
+Circleville	OHIO
+Cleveland	OHIO
+Columbus	OHIO
+Dayton	OHIO
+Defiance	OHIO
+Delaware	OHIO
+East Liverpool	OHIO
+Elyria	OHIO
+Findlay	OHIO
+Fremont	OHIO
+Gambier	OHIO
+Granville	OHIO
+Hamilton	OHIO
+Hillsboro	OHIO
+Hiram	OHIO
+Huber Heights	OHIO
+Huron	OHIO
+Ironton	OHIO
+Irwin	OHIO
+Kent	OHIO
+Kettering	OHIO
+Kirtland	OHIO
+Lancaster	OHIO
+Lima	OHIO
+Mansfield	OHIO
+Marietta	OHIO
+Marion	OHIO
+Middletown	OHIO
+Mount Vernon	OHIO
+Nelsonville	OHIO
+New Concord	OHIO
+New Philadelphia	OHIO
+Newark	OHIO
+North Canton	OHIO
+Oberlin	OHIO
+Orrville	OHIO
+Oxford	OHIO
+Painesville	OHIO
+Pepper Pike	OHIO
+Perrysburg	OHIO
+Piqua	OHIO
+Portsmouth	OHIO
+Rio Grande	OHIO
+Saint Clairsville	OHIO
+Saint Martin	OHIO
+Salem	OHIO
+South Point	OHIO
+Springfield	OHIO
+St Clairsville	OHIO
+Steubenville	OHIO
+Sylvania	OHIO
+Tiffin	OHIO
+Toledo	OHIO
+University Heights	OHIO
+Warren	OHIO
+Westerville	OHIO
+Wickliffe	OHIO
+Wilberforce	OHIO
+Wilmington	OHIO
+Wooster	OHIO
+Yellow Springs	OHIO
+Youngstown	OHIO
+Zanesville	OHIO
+Ada	OKLAHOMA
+Altus	OKLAHOMA
+Alva	OKLAHOMA
+Bartlesville	OKLAHOMA
+Bethany	OKLAHOMA
+Chickasha	OKLAHOMA
+Claremore	OKLAHOMA
+Durant	OKLAHOMA
+Edmond	OKLAHOMA
+El Reno	OKLAHOMA
+Goodwell	OKLAHOMA
+Langston	OKLAHOMA
+Lawton	OKLAHOMA
+Miami	OKLAHOMA
+Midwest City	OKLAHOMA
+Moore	OKLAHOMA
+Muskogee	OKLAHOMA
+Norman	OKLAHOMA
+Oklahoma City	OKLAHOMA
+Okmulgee	OKLAHOMA
+Poteau	OKLAHOMA
+Seminole	OKLAHOMA
+Shawnee	OKLAHOMA
+Stillwater	OKLAHOMA
+Tahlequah	OKLAHOMA
+Tishomingo	OKLAHOMA
+Tonkawa	OKLAHOMA
+Tulsa	OKLAHOMA
+Warner	OKLAHOMA
+Weatherford	OKLAHOMA
+Wilburton	OKLAHOMA
+Albany	OREGON
+Ashland	OREGON
+Astoria	OREGON
+Bend	OREGON
+Coos Bay	OREGON
+Corvallis	OREGON
+Eugene	OREGON
+Forest Grove	OREGON
+Grants Pass	OREGON
+Gresham	OREGON
+Klamath Falls	OREGON
+La Grande	OREGON
+McMinnville	OREGON
+Medford	OREGON
+Monmouth	OREGON
+Newberg	OREGON
+Newport	OREGON
+Ontario	OREGON
+Oregon City	OREGON
+Pendleton	OREGON
+Portland	OREGON
+Roseburg	OREGON
+Saint Benedict	OREGON
+Salem	OREGON
+The Dalles	OREGON
+Tillamook	OREGON
+Allentown	PENNSYLVANIA
+Annville	PENNSYLVANIA
+Aston	PENNSYLVANIA
+Beaver Falls	PENNSYLVANIA
+Bethlehem	PENNSYLVANIA
+Bloomsburg	PENNSYLVANIA
+Blue Bell	PENNSYLVANIA
+Bradford	PENNSYLVANIA
+Bryn Athyn	PENNSYLVANIA
+Bryn Mawr	PENNSYLVANIA
+Butler	PENNSYLVANIA
+California	PENNSYLVANIA
+Carlisle	PENNSYLVANIA
+Center Valley	PENNSYLVANIA
+Chambersburg	PENNSYLVANIA
+Chester	PENNSYLVANIA
+Cheyney	PENNSYLVANIA
+Clarion	PENNSYLVANIA
+Clarks Summit	PENNSYLVANIA
+Collegeville	PENNSYLVANIA
+Cresson	PENNSYLVANIA
+Dallas	PENNSYLVANIA
+Doylestown	PENNSYLVANIA
+East Stroudsburg	PENNSYLVANIA
+Easton	PENNSYLVANIA
+Edinboro	PENNSYLVANIA
+Elizabethtown	PENNSYLVANIA
+Erie	PENNSYLVANIA
+Gettysburg	PENNSYLVANIA
+Glenside	PENNSYLVANIA
+Grantham	PENNSYLVANIA
+Greensburg	PENNSYLVANIA
+Greenville	PENNSYLVANIA
+Gwynedd Valley	PENNSYLVANIA
+Harrisburg	PENNSYLVANIA
+Hatfield	PENNSYLVANIA
+Haverford	PENNSYLVANIA
+Huntingdon	PENNSYLVANIA
+Immaculata	PENNSYLVANIA
+Indiana	PENNSYLVANIA
+Jenkintown	PENNSYLVANIA
+Johnstown	PENNSYLVANIA
+Kutztown	PENNSYLVANIA
+La Plume	PENNSYLVANIA
+Lancaster	PENNSYLVANIA
+Langhorne	PENNSYLVANIA
+Latrobe	PENNSYLVANIA
+Lewisburg	PENNSYLVANIA
+Lincoln University	PENNSYLVANIA
+Lock Haven	PENNSYLVANIA
+Loretto	PENNSYLVANIA
+Mansfield	PENNSYLVANIA
+Meadville	PENNSYLVANIA
+Mechanicsburg	PENNSYLVANIA
+Media	PENNSYLVANIA
+Millersville	PENNSYLVANIA
+Monaca	PENNSYLVANIA
+Moon Township	PENNSYLVANIA
+Nanticoke	PENNSYLVANIA
+New Wilmington	PENNSYLVANIA
+Newtown	PENNSYLVANIA
+Oakdale	PENNSYLVANIA
+Philadelphia	PENNSYLVANIA
+Phoenixville	PENNSYLVANIA
+Pittsburgh	PENNSYLVANIA
+Pleasant Gap	PENNSYLVANIA
+Radnor	PENNSYLVANIA
+Reading	PENNSYLVANIA
+Rosemont	PENNSYLVANIA
+Saint Davids	PENNSYLVANIA
+Schnecksville	PENNSYLVANIA
+Scranton	PENNSYLVANIA
+Selinsgrove	PENNSYLVANIA
+Shippensburg	PENNSYLVANIA
+Slippery Rock	PENNSYLVANIA
+South Abington Township	PENNSYLVANIA
+Swarthmore	PENNSYLVANIA
+Titusville	PENNSYLVANIA
+Villanova	PENNSYLVANIA
+Washington	PENNSYLVANIA
+Wayne	PENNSYLVANIA
+Waynesburg	PENNSYLVANIA
+West Chester	PENNSYLVANIA
+West Mifflin	PENNSYLVANIA
+Wilkes-Barre	PENNSYLVANIA
+Wilkes Barre	PENNSYLVANIA
+Williamsport	PENNSYLVANIA
+Willow Street	PENNSYLVANIA
+Wynnewood	PENNSYLVANIA
+York	PENNSYLVANIA
+Youngwood	PENNSYLVANIA
+Bristol	RHODE ISLAND
+East Greenwich	RHODE ISLAND
+Kingston	RHODE ISLAND
+Newport	RHODE ISLAND
+Providence	RHODE ISLAND
+Smithfield	RHODE ISLAND
+Warwick	RHODE ISLAND
+Aiken	SOUTH CAROLINA
+Allendale	SOUTH CAROLINA
+Anderson	SOUTH CAROLINA
+Beaufort	SOUTH CAROLINA
+Bluffton	SOUTH CAROLINA
+Central	SOUTH CAROLINA
+Charleston	SOUTH CAROLINA
+Cheraw	SOUTH CAROLINA
+Clemson	SOUTH CAROLINA
+Clinton	SOUTH CAROLINA
+Columbia	SOUTH CAROLINA
+Conway	SOUTH CAROLINA
+Denmark	SOUTH CAROLINA
+Due West	SOUTH CAROLINA
+Florence	SOUTH CAROLINA
+Gaffney	SOUTH CAROLINA
+Graniteville	SOUTH CAROLINA
+Greenville	SOUTH CAROLINA
+Greenwood	SOUTH CAROLINA
+Hartsville	SOUTH CAROLINA
+Kingstree	SOUTH CAROLINA
+Lancaster	SOUTH CAROLINA
+Newberry	SOUTH CAROLINA
+Orangeburg	SOUTH CAROLINA
+Pendleton	SOUTH CAROLINA
+Rock Hill	SOUTH CAROLINA
+Spartanburg	SOUTH CAROLINA
+Sumter	SOUTH CAROLINA
+Tigerville	SOUTH CAROLINA
+Union	SOUTH CAROLINA
+West Columbia	SOUTH CAROLINA
+Aberdeen	SOUTH DAKOTA
+Brookings	SOUTH DAKOTA
+Kyle	SOUTH DAKOTA
+Madison	SOUTH DAKOTA
+Mission	SOUTH DAKOTA
+Mitchell	SOUTH DAKOTA
+Rapid City	SOUTH DAKOTA
+Sioux Falls	SOUTH DAKOTA
+Sisseton	SOUTH DAKOTA
+Spearfish	SOUTH DAKOTA
+Vermillion	SOUTH DAKOTA
+Watertown	SOUTH DAKOTA
+Yankton	SOUTH DAKOTA
+Athens	TENNESSEE
+Blountville	TENNESSEE
+Bristol	TENNESSEE
+Chattanooga	TENNESSEE
+Clarksville	TENNESSEE
+Cleveland	TENNESSEE
+Collegedale	TENNESSEE
+Columbia	TENNESSEE
+Cookeville	TENNESSEE
+Dayton	TENNESSEE
+Dyersburg	TENNESSEE
+Franklin	TENNESSEE
+Gallatin	TENNESSEE
+Greeneville	TENNESSEE
+Harriman	TENNESSEE
+Harrogate	TENNESSEE
+Henderson	TENNESSEE
+Jackson	TENNESSEE
+Jefferson City	TENNESSEE
+Johnson City	TENNESSEE
+Knoxville	TENNESSEE
+Lebanon	TENNESSEE
+Martin	TENNESSEE
+Maryville	TENNESSEE
+McKenzie	TENNESSEE
+Memphis	TENNESSEE
+Milligan	TENNESSEE
+Milligan College	TENNESSEE
+Morristown	TENNESSEE
+Murfreesboro	TENNESSEE
+Nashville	TENNESSEE
+Pulaski	TENNESSEE
+Sewanee	TENNESSEE
+Tullahoma	TENNESSEE
+Abilene	TEXAS
+Alpine	TEXAS
+Alvin	TEXAS
+Amarillo	TEXAS
+Arlington	TEXAS
+Athens	TEXAS
+Austin	TEXAS
+Baytown	TEXAS
+Beaumont	TEXAS
+Bedford	TEXAS
+Beeville	TEXAS
+Belton	TEXAS
+Big Spring	TEXAS
+Borger	TEXAS
+Brenham	TEXAS
+Brownsville	TEXAS
+Brownwood	TEXAS
+Canyon	TEXAS
+Carthage	TEXAS
+Cisco	TEXAS
+Clarendon	TEXAS
+College Station	TEXAS
+Commerce	TEXAS
+Conroe	TEXAS
+Corpus Christi	TEXAS
+Corsicana	TEXAS
+Dallas	TEXAS
+Denison	TEXAS
+Denton	TEXAS
+Edinburg	TEXAS
+El Paso	TEXAS
+Euless	TEXAS
+Fort Worth	TEXAS
+Gainesville	TEXAS
+Galveston	TEXAS
+Garland	TEXAS
+Georgetown	TEXAS
+Hawkins	TEXAS
+Hillsboro	TEXAS
+Houston	TEXAS
+Huntsville	TEXAS
+Irving	TEXAS
+Jacksonville	TEXAS
+Keene	TEXAS
+Kerrville	TEXAS
+Kilgore	TEXAS
+Killeen	TEXAS
+Kingsville	TEXAS
+Lake Jackson	TEXAS
+Laredo	TEXAS
+Levelland	TEXAS
+Longview	TEXAS
+Lubbock	TEXAS
+Lufkin	TEXAS
+Marshall	TEXAS
+McAllen	TEXAS
+McKinney	TEXAS
+Midland	TEXAS
+Mount Pleasant	TEXAS
+Nacogdoches	TEXAS
+Odessa	TEXAS
+Orange	TEXAS
+Paris	TEXAS
+Pasadena	TEXAS
+Plainview	TEXAS
+Port Arthur	TEXAS
+Prairie View	TEXAS
+Ranger	TEXAS
+Richardson	TEXAS
+San Angelo	TEXAS
+San Antonio	TEXAS
+San Marcos	TEXAS
+Seguin	TEXAS
+Sherman	TEXAS
+Snyder	TEXAS
+Southlake	TEXAS
+Stafford	TEXAS
+Stephenville	TEXAS
+Temple	TEXAS
+Terrell	TEXAS
+Texarkana	TEXAS
+Texas City	TEXAS
+The Woodlands	TEXAS
+Tyler	TEXAS
+Universal City	TEXAS
+Uvalde	TEXAS
+Vernon	TEXAS
+Victoria	TEXAS
+Waco	TEXAS
+Waxahachie	TEXAS
+Weatherford	TEXAS
+Webster	TEXAS
+Wharton	TEXAS
+Wichita Falls	TEXAS
+Cedar City	UTAH
+Ephraim	UTAH
+Logan	UTAH
+Ogden	UTAH
+Orem	UTAH
+Provo	UTAH
+Saint George	UTAH
+Salt Lake City	UTAH
+Bennington	VERMONT
+Burlington	VERMONT
+Castleton	VERMONT
+Colchester	VERMONT
+Craftsbury Common	VERMONT
+Johnson	VERMONT
+Middlebury	VERMONT
+Montpelier	VERMONT
+Northfield	VERMONT
+Plainfield	VERMONT
+Putney	VERMONT
+Randolph	VERMONT
+Randolph Center	VERMONT
+Winooski	VERMONT
+Abingdon	VIRGINIA
+Alberta	VIRGINIA
+Annandale	VIRGINIA
+Arlington	VIRGINIA
+Ashland	VIRGINIA
+Big Stone Gap	VIRGINIA
+Blacksburg	VIRGINIA
+Bluefield	VIRGINIA
+Bridgewater	VIRGINIA
+Buena Vista	VIRGINIA
+Cedar Bluff	VIRGINIA
+Charlottesville	VIRGINIA
+Chester	VIRGINIA
+Clifton Forge	VIRGINIA
+Danville	VIRGINIA
+Dublin	VIRGINIA
+Emory	VIRGINIA
+Fairfax	VIRGINIA
+Farmville	VIRGINIA
+Ferrum	VIRGINIA
+Franklin	VIRGINIA
+Fredericksburg	VIRGINIA
+Glenns	VIRGINIA
+Hampden-Sydney	VIRGINIA
+Hampton	VIRGINIA
+Harrisonburg	VIRGINIA
+Lexington	VIRGINIA
+Locust Grove	VIRGINIA
+Lynchburg	VIRGINIA
+Martinsville	VIRGINIA
+Melfa	VIRGINIA
+Middletown	VIRGINIA
+Newport News	VIRGINIA
+Norfolk	VIRGINIA
+Petersburg	VIRGINIA
+Radford	VIRGINIA
+Richlands	VIRGINIA
+Richmond	VIRGINIA
+Roanoke	VIRGINIA
+Salem	VIRGINIA
+South Prince George	VIRGINIA
+Staunton	VIRGINIA
+Sweet Briar	VIRGINIA
+University of Richmond	VIRGINIA
+Virginia Beach	VIRGINIA
+Weyers Cave	VIRGINIA
+Williamsburg	VIRGINIA
+Winchester	VIRGINIA
+Wise	VIRGINIA
+Wytheville	VIRGINIA
+Aberdeen	WASHINGTON
+Auburn	WASHINGTON
+Bellevue	WASHINGTON
+Bellingham	WASHINGTON
+Bothell	WASHINGTON
+Bremerton	WASHINGTON
+Centralia	WASHINGTON
+Cheney	WASHINGTON
+College Place	WASHINGTON
+Des Moines	WASHINGTON
+Ellensburg	WASHINGTON
+Everett	WASHINGTON
+Kirkland	WASHINGTON
+Lacey	WASHINGTON
+Lakewood	WASHINGTON
+Longview	WASHINGTON
+Lynnwood	WASHINGTON
+Moses Lake	WASHINGTON
+Mount Vernon	WASHINGTON
+Olympia	WASHINGTON
+Pasco	WASHINGTON
+Port Angeles	WASHINGTON
+Port Hadlock	WASHINGTON
+Pullman	WASHINGTON
+Renton	WASHINGTON
+Seattle	WASHINGTON
+Shoreline	WASHINGTON
+Spokane	WASHINGTON
+Tacoma	WASHINGTON
+Toppenish	WASHINGTON
+Vancouver	WASHINGTON
+Walla Walla	WASHINGTON
+Wenatchee	WASHINGTON
+Yakima	WASHINGTON
+Athens	WEST VIRGINIA
+Beaver	WEST VIRGINIA
+Beckley	WEST VIRGINIA
+Bethany	WEST VIRGINIA
+Bluefield	WEST VIRGINIA
+Buckhannon	WEST VIRGINIA
+Charleston	WEST VIRGINIA
+Elkins	WEST VIRGINIA
+Fairmont	WEST VIRGINIA
+Glenville	WEST VIRGINIA
+Huntington	WEST VIRGINIA
+Institute	WEST VIRGINIA
+Keyser	WEST VIRGINIA
+Martinsburg	WEST VIRGINIA
+Montgomery	WEST VIRGINIA
+Moorefield	WEST VIRGINIA
+Morgantown	WEST VIRGINIA
+Mount Gay	WEST VIRGINIA
+Mount Hope	WEST VIRGINIA
+Parkersburg	WEST VIRGINIA
+Philippi	WEST VIRGINIA
+Shepherdstown	WEST VIRGINIA
+South  Charleston	WEST VIRGINIA
+West Liberty	WEST VIRGINIA
+Wheeling	WEST VIRGINIA
+Appleton	WISCONSIN
+Ashland	WISCONSIN
+Beloit	WISCONSIN
+Brookfield	WISCONSIN
+Cleveland	WISCONSIN
+De Pere	WISCONSIN
+Eau Claire	WISCONSIN
+Fennimore	WISCONSIN
+Fond du Lac	WISCONSIN
+Fond Du Lac	WISCONSIN
+Green Bay	WISCONSIN
+Hayward	WISCONSIN
+Janesville	WISCONSIN
+Kenosha	WISCONSIN
+Keshena	WISCONSIN
+La Crosse	WISCONSIN
+Madison	WISCONSIN
+Menomonie	WISCONSIN
+Mequon	WISCONSIN
+Milwaukee	WISCONSIN
+Oshkosh	WISCONSIN
+Pewaukee	WISCONSIN
+Platteville	WISCONSIN
+Plymouth	WISCONSIN
+Rhinelander	WISCONSIN
+Ripon	WISCONSIN
+River Falls	WISCONSIN
+Shell Lake	WISCONSIN
+Stevens Point	WISCONSIN
+Superior	WISCONSIN
+Watertown	WISCONSIN
+Waukesha	WISCONSIN
+Wausau	WISCONSIN
+Whitewater	WISCONSIN
+Wisconsin Rapids	WISCONSIN
+Casper	WYOMING
+Cheyenne	WYOMING
+Laramie	WYOMING
+Powell	WYOMING
+Riverton	WYOMING
+Rock Springs	WYOMING
+Sheridan	WYOMING
+Torrington	WYOMING
+Aguadilla	NA
+Arecibo	NA
+Barranquitas	NA
+Bayamon	NA
+Bayamón	NA
+Caguas	NA
+Carolina	NA
+Cayey	NA
+Charlotte Amalie	NA
+Cupey	NA
+Fajardo	NA
+Guayama	NA
+Guaynabo	NA
+Gurabo	NA
+Hato Rey	NA
+Humacao	NA
+Juana Diaz	NA
+Manati	NA
+Mangilao	NA
+Mayaguez	NA
+Mercedita	NA
+Pago Pago	NA
+PagoPago	NA
+Ponce	NA
+Ramey	NA
+Rio Piedras	NA
+Saipan	NA
+San German	NA
+San Juan	NA
+San Sebastian	NA
+Santurce	NA
+Trujillo Alto	NA
+Utuado	NA
+Vega Baja	NA
+Villalba	NA
+NA	NA
