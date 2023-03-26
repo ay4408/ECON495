@@ -10,7 +10,6 @@
 #------------------------------------------------
 # 1.1 Install/Load Packages
 library(tidyverse)
-library(haven)
 
 # 1.2 Set Working Directory
 setwd('/Users/ay440/source/repos/ay4408/ECON495')
