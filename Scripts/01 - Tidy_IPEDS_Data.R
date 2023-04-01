@@ -1,5 +1,5 @@
 #=================================================================
-# Program   :  01 - Clean_IPEDS_Data.R
+# Program   :  01 - Tidy_IPEDS_Data.R
 # Date      :  March 24, 2023
 # Project   :  ECON 495 Paper
 # Author    :  Alex Yee
@@ -17,14 +17,11 @@ getwd()
 #------------------------------------------------
 # 2. Load Data
 #------------------------------------------------
-IPEDS_raw <- read_rds("./Data/IPEDS/Exported IPEDS Data/IPEDS_raw.rds")
+IPEDS_raw <- read_rds("./Data/IPEDS/Exported IPEDS Data/IPEDS_raw_2.rds")
 
 #------------------------------------------------
 # 3. Clean Data
 #------------------------------------------------
-# TODO: Look for erroneous values in data ESPECIALLY
-# cities.
-
 # 3.1 Drop old institution name and rename variables
 IPEDS <- IPEDS_raw %>%
   mutate(instnm...4 = NULL, 
@@ -35,7 +32,9 @@ IPEDS <- IPEDS_raw %>%
          xtuit3 = NULL,
          xchg5ay3 = NULL,
          xchg7ay3 = NULL,
-         xret_pcf = NULL) %>%
+         xret_pcf = NULL,
+         # drop newid variable
+         newid = NULL) %>%
   rename(instnm = instnm...2,
          avgintuit = tuition2,
          avgouttuit = tuition3,
@@ -44,8 +43,8 @@ IPEDS <- IPEDS_raw %>%
          pctadm = dvic01,
          region = obereg,
          titleiv = pset4flg,
-         ugenroll = efugft,
-         genroll = efgradft,
+         ugenrollft = efugft,
+         genrollft = efgradft,
          pctret = ret_pcf,
          pctyoung = dvef14,
          pctold = dvef15,
@@ -65,7 +64,7 @@ IPEDS <- IPEDS %>%
   mutate(rowid = row_number())
 
 # 3.4 Coerce factor variables
-cols_to_factor <- c("year", "newid", "alloncam", "room", "instsize",
+cols_to_factor <- c("year", "alloncam", "room", "instsize",
                     "fips", "region", "sector", "iclevel",
                     "control", "deggrant", "locale", "titleiv")
 
@@ -79,7 +78,45 @@ convert_to_pct <- function (x) {
 
 IPEDS <- IPEDS %>%
   mutate(across(starts_with("pct"), convert_to_pct))
+
+# 3.6 Coerce to characters
+cols_to_chr <- c("unitid", "countycd")
+
+IPEDS[,cols_to_chr] <- lapply(IPEDS[cols_to_chr], as.character)
+
+# 3.7 Move geographic variables to one group
+IPEDS <- IPEDS %>%
+  relocate(c("stabbr", "fips", "region", "locale"), .after = countynm) %>%
+  relocate(c("applcn", "pctadm"), .after = genrollft)
+
+# 3.8 Standardize countynm variable
+IPEDS <- IPEDS %>%
+  mutate(countynm = countynm %>%
+           str_remove(",.+")) %>%
+  mutate(countynm = if_else((year == 2014) & (!is.na(lag(countynm))), lead(countynm), countynm))
+
+# 3.9 Fix erroneous city values
+# 3.9.a Check for strange city names
+dup <- IPEDS %>%
+  filter(city == "University" | str_detect(city, "University"))
+# 3.9.b Change city values (used internet for correct city names)
+IPEDS <- IPEDS %>%
+  mutate(city = case_when(city == "Auburn University" ~ "Auburn",
+                          city == "Niagara University" ~ "Lewiston",
+                          city == "University" ~ "Oxford",
+                          city == "University of Richmond" ~ "Richmond",
+                          TRUE ~ as.character(city))) 
+
+# 3.10 Change state abbreviation to full name
+# 3.10.a Load in table of fips codes and state names
+state_names <- read_tsv("01 Alabama.txt") %>%
+  mutate(fips = as.factor(fips))
+
+# 3.10.b Change abbreviations to full names
+IPEDS <- left_join(IPEDS, state_names) %>%
+  mutate(stabbr = state, state = NULL) %>%
+  rename(state = stabbr)
 #------------------------------------------------
 # 4. Export Data
 #------------------------------------------------
-saveRDS(IPEDS, "./Data/IPEDS/Exported IPEDS Data/IPEDS_cleaned.rds")
+saveRDS(IPEDS, "./Data/IPEDS/Exported IPEDS Data/IPEDS_cleaned_2.rds")

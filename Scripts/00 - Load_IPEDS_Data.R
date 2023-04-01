@@ -19,7 +19,7 @@ getwd()
 # 2. Import Data 
 #------------------------------------------------
 # 2.1 Create list of zipped folder file paths
-zipfolder_names <- list.files("./Data/IPEDS/IPEDS Data Raw", full.names = TRUE)
+zipfolder_names <- list.files("./Data/IPEDS/IPEDS Data Raw_2", full.names = TRUE)
 
 # 2.2 Create temporary directory to store extracted files
 tmpdir <- tempdir()
@@ -45,4 +45,4 @@ IPEDS_raw <- IPEDS_raw %>%
 # 3.1 Create directory to store data frames
 dir.create("./Data/IPEDS/Exported IPEDS Data")
 # 3.2 Export data into Exported IPEDS Data Folder 
-saveRDS(IPEDS_raw, file = "./Data/IPEDS/Exported IPEDS DATA/IPEDS_raw.rds")
+saveRDS(IPEDS_raw, file = "./Data/IPEDS/Exported IPEDS DATA/IPEDS_raw_2.rds")
