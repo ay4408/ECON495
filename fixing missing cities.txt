@@ -1,0 +1,271 @@
+Normal, Alabama (not in Census data)
+
+Anchorage, Alaska (Anchorage municipality in Census data)
+
+Alcorn State, Mississippi (Alcorn State University in Census data)
+
+Nashville, Tennessee (Nashville-Davidson metropolitan government (balance) in Census data)
+
+Amherst, Massachusetts (Amherst Center in Census data)
+
+Paxton, Massachusetts (DNE in Census data)
+
+Enfield, Connecticut (DNE in Census data)
+
+Brooklyn, New York (DNE in Census data)
+
+Athens, Georgia (Athens-Clarke County unified government (balance) in Census data)
+
+Ave Maria, Florida (DNE in Census data)
+
+Annandale-on-Hudson, New York (DNE in Census data)
+
+Brimley, Michigan (DNE in census Data)
+
+Far Rockaway, New York (DNE in Census Data)
+
+Louisville, Kentucky (Louisville/Jefferson County metro government (balance))
+
+St. Clairsville, Ohio (St. Clairsville, Ohio) NOTE: Fix both college observations to say St. Clairsville (Belmont College)
+
+Mount Berry, Georgia (DNE in Census data)
+
+Saint Paul, Minnesota (St. Paul in Census data) NOTE: Change to Arden Hills, Minnesota (Bethel University)
+
+Vesta, New York (Binghampton in Census data) (Binghampton University)
+
+Bloomfield, New Jersey (DNE in Census data)
+
+Lexington, Kentucky (Lexington-Fayette urban county in Census data)
+
+Boise, Idaho (Boise City in Census data)
+
+Chestnut Hill, Massachussets (Newton, Massachusetts in Census data)
+
+Bridgewater, Massachussets (drop, not same geography)
+
+Smithfield, Rhode Island (DNE in Census data)
+
+Indianapolis, Indiana (Indianapolis (balance) in Census data)
+
+Radnor, Pennsylvania (DNE in Census data)
+
+Valencia, California (DNE in Census data)
+
+Northridge, California (DNE in Census data)
+
+West Barnstable, Massachusetts (Barnstable Town in Census data)
+
+Winston Salem, North Carolina (Winston-Salem in Census data)
+
+Van Nuys, California (DNE in Census data)
+
+Honolulu, Hawaii (East Honolulu in Census data)
+
+Saint Martin, Ohio (St. Martin in Census data)
+
+Wye Mills, Maryland (DNE in Census data)
+
+Cheney, Pennsylvania (Cheney University in Census data)
+
+South Abington Township, Pennsylvania (Clarks Summit in Census data)
+
+Saint Joseph, Minnesota (St. Joseph in Census data)
+
+Point Lookout, Missouri (DNE in Census data)
+
+Randolph, New Jersey (DNE in Census data)
+
+Saint Bonifacius, Minnesota (St. Bonifacius in Census data)
+
+Amherst, New York (DNE in Census data)
+
+Franklin, Massachusetts (Franklin Town in Census data)
+
+University Center, Michigan (DNE in Census data)
+
+Center Valley, Pennsylvania (DNE in Census data)
+
+Saint George, Utah (St. George in Census data)
+
+Saint Davids, Pennsylvania (DNE in Census data)
+
+Saint Petersburg, Florida (St. Petersburg in Census data)
+
+Fairfield, Connecticut (DNE in Census data)
+
+Teaneck, New Jersey (DNE in Census data)
+
+Saint Augustine, Florida (St. Augustine in Census data)
+
+Saint Louis, Missouri (St. Louis in Census data)
+
+Rindge, New Hampshire (DNE in Census data)
+
+McHenry, Maryland (DNE in Census data)
+
+Locust Grove, Virginia (DNE in Census data)
+
+Wenham, Massachusetts (DNE in Census data)
+
+Greenfield, Massachusetts (Greenfield Town in Census data)
+
+Saint Peter, Minnesota (St. Peter in Census data)
+
+Gwynedd Valley, Pennsylvania (DNE in Census data)
+
+Haverford, Pennsylvania (Haverford College in Census data)
+
+Butte, Montana (Butte-Silver Bow (balance))
+
+Cromwell, Connecticut (DNE in Census data)
+
+Barrow, Alaska (DNE in Census data)
+
+Immaculata, Pennsylvania (DNE in Census data)
+
+Tanner, Alabama (DNE in Census data)
+
+Union, New Jersey (DNE in Census data)
+
+Vancleve, Kentucky (Jackson in Census data)
+
+La Plume, Pennsylvania (Factorysville in Census data)
+
+Lagrange, Georgia (LaGrange in Census data)
+
+Sault Ste Marie, Michigan (Sault Ste. Marie in Census data)
+
+Saint Charles, Missouri (St. Charles in Census data)
+
+Purchase, New York (Harrison in Census data)
+
+Fond Du Lac, Wisconsin (Fond du Lac in Census data)
+
+Wellesley Hills, Massachusetts (Wellesley in Census data)
+
+West Windsor, New Jersey (DNE in Census data)
+
+Macon, Georgia (Macon-Bibb County in Census data)
+
+North Andover, Massachusetts (Andover in Census data)
+
+Edison, New Jersey (DNE in Census data)
+
+Perkinston, Mississippi (DNE in Census data)
+
+Saint Joseph, Missouri (St. Joseph in Census data)
+
+Sidney, Michigan (DNE in Census data)
+
+Montclair, New Jersey (Upper Montclair in Census data)
+
+Fort Morgan, Colorado (Fort Morgan in Census data) NOTE: Extra space in college dataset?
+
+Saint Benedict, Oregon (DNE in Census data)
+
+South Hadley, Massachusetts (Holyoke in Census data)
+
+La Jolla, California (DNE in Census data)
+
+Aston, Pennsylvania (DNE in Census data)
+
+East Greenwich, Rhode Island (DNE in Census data)
+
+Dudley, Massachusetts (DNE in Census data)
+
+Dekalb, Illinois (DeKalb in Census data)
+
+Espanola, New Mexico (Española in Census data)
+
+Port Hadlock, Washington (Port Hadlock-Irondale in Census data)
+
+Saint Clairsville, Ohio (St. Clairsville in Census data)
+
+Helena, Arkansas (Helena-West Helena in Census data)
+
+Hamden, Connecticut (North Haven in Census data)
+
+Mahwah, New Jersey (Ramsey in Census data)
+
+Glenns, Virginia (DNE in Census data)
+
+Branchburg, New Jersey (DNE in Census data)
+
+South Prince George, Virginia (Prince George in Census data)
+
+Moon Township, Pennsylvania (Carnot-Moon Pennsylvania)
+
+Bristol, Rhode Island (DNE in Census data)
+
+Irwin, Ohio (DNE in Census data)
+
+Rosemont, Pennsylvania (Bryn Mawr in Census data)
+
+DROP Rowan College at Burlington County
+
+Sewell, New Jersey (DNE in Census data)
+
+Roxbury Crossing, Massachusetts (DNE in Census data)
+
+Wynnewood, Pennsylvania (DNE in Census data)
+
+Saint Cloud, Minnesota (St. Cloud in Census Data)
+
+Collegeville, Minnesota (DNE in Census data)
+
+St. Benedict, Louisiana (DNE in Census data)
+
+Saint Leo, Florida (St. Leo in Census data)
+
+Saint Mary of the Woods (St. Mary of the Woods in Census data)
+
+Colchester, Vermont (DNE in Census data)
+
+South Orange, New Jersey (DNE in Census data)
+
+Loudonville, New York (DNE in Census data)
+
+Mount Gay, West Virginia (Logan in Census data)
+
+Saint Bonaventure, New York (St. Bonaventure in Census data)
+
+Craftsbury Common, Vermont (DNE in Census data)
+
+Stevenson, Maryland (DNE in Census data)
+
+Galloway, New Jersey (DNE in Census data)
+
+Easton, Massachusetts (DNE in Census data)
+
+Sweet Briar, Virginia (DNE in Census data)
+
+Arundel, Maine (DNE in Census data)
+
+Merrimack, New Hampshire (East Merrimack in Census data)
+
+Toccoa Falls, Georgia (Toccoa in Census data)
+
+Tougaloo, Mississippi (Jackson in Census data)
+
+West  Point, New York (West Point in Census data) NOTE: Extra space?
+
+Anchorage Municipality, Alaska (Anchorage municipality in Census data)
+
+Juneau City and Borough, Alaska (Juneau city and borough in Census data)
+
+North Dartmouth, Massachusetts (Smith Mills in Census data)
+
+Villanova, Pennsylvania (Bryn Mawr in Census data)
+
+Institute, West Virginia (DNE in Census data)
+
+Norton, Massachusetts (Norton Center in Census data)
+
+Wayne, New Jersey (DNE in Census data)
+
+Silver  Spring, Maryland (Silver Spring in Census data) NOTE: Extra space?
+
+South Fallsburgh, New York (South Fallsburg in Census data)
+
+Wells, Maine (DNE in Census data)
