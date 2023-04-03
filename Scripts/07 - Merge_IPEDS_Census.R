@@ -23,7 +23,7 @@ census_counties <- read_rds("./Data/Census/Exported Census Data/census_counties_
 IPEDS <- read_rds("./Data/IPEDS/Exported IPEDS Data/IPEDS_to_merge.rds")
 
 #------------------------------------------------
-# 3. Merge Data
+# 3. Troubleshoot Merging Cities
 #------------------------------------------------
 # 3.1 Merge places
 merge_test <- full_join(census_places, IPEDS, by = c("year" = "year",
@@ -136,3 +136,23 @@ merge_test_2 <- merge_test_2 %>%
   filter(!is.na(instnm)) %>%
   filter(!is.na(GEOID))
 
+#------------------------------------------------
+# 4. Troubleshoot Merging Counties
+#------------------------------------------------
+# 4.1 Merge counties
+merge_test_3 <- full_join(merge_test_2, census_counties, by = c("year" = "year",
+                                                                "county" = "county",
+                                                                "state" = "state"),
+                          suffix = c(".city", ".county"))
+
+# 4.2 Drop counties without colleges
+merged_final <- merge_test_3 %>%
+  filter(!is.na(GEOID.city)) %>%
+  relocate(GEOID.county, .before = "county")
+
+#------------------------------------------------
+# 5. Export Data
+#------------------------------------------------
+# 5.1 Create folder for merged data and save to RDS object
+dir.create("./Data/Merged Datasets")
+saveRDS(merged_final, "./Data/Merged Datasets/merged_final.rds")
