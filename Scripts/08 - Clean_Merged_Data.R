@@ -126,6 +126,9 @@ for (i in seq(vars_to_diff)) {
     first_diff(vars_to_diff[i], diff_names[i])
 }
 
+# 7.4 Keep all values as whole numbers
+
+
 #------------------------------------------------
 # 8. Export Analysis Dataset
 #------------------------------------------------

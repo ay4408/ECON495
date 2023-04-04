@@ -136,11 +136,9 @@ ggsave("./Plots/stdnts_10pct_4yr_plot.tex", plot = stdnts_10pct_4yr_plot, device
 #------------------------------------------------
 # 6.1 All colleges
 reg_all_colleges <- analysis_df %>%
-  filter(year == 2019) %>%
-  na.omit() %>%
-  filter(is.finite(cstudent_to_pop))
+  filter(year == 2019)
 
-lm_all_colleges <- lm(cestimate_medrentpctinc ~ cstudent_to_pop, reg_all_colleges)
+lm_all_colleges <- lm(cestimate_medrentpctinc ~ I(100 * cstudent_to_pop), reg_all_colleges)
 summary(lm_all_colleges)
 stargazer(lm_all_colleges, out = "Table Outputs/Regression Outputs/lm_all_colleges.tex")
 
@@ -150,11 +148,9 @@ stargazer(lm_all_colleges, out = "Table Outputs/Regression Outputs/lm_all_colleg
 
 # 6.4 10% or greater student pop. and public/private 4-year 
 reg_stdnts10pct_4yr <- stdnts10pct_4yr %>%
-  filter(year == 2019) %>%
-  na.omit() %>%
-  filter(is.finite(cstudent_to_pop))
+  filter(year == 2019)
 
-lm_stdnts10pct_4yr <- lm(cestimate_medrentpctinc ~ cstudent_to_pop, reg_stdnts10pct_4yr)
+lm_stdnts10pct_4yr <- lm(cestimate_medrentpctinc ~ I(100 * cstudent_to_pop), reg_stdnts10pct_4yr)
 summary(lm_stdnts10pct_4yr)
 stargazer(lm_stdnts10pct_4yr, out = "Table Outputs/Regression Outputs/lm_stdnts10pct_4yr.tex")
 

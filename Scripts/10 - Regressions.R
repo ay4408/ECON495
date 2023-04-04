@@ -67,17 +67,37 @@ stargazer(mlm_complete_full, out = "Table Outputs/Regression Outputs/mlm_complet
                                "pct. admitted",
                                "on-campus room & board cost"))
 
+# 3.6 Apply full regression to smaller dataset
+mlm_complete_10pct4yr <- lm(cestimate_medrentpctinc ~ I(100 * cstudent_to_pop) + croomcap + 
+                                 cestimate_tothsg + cestimate_workoutcty + I(100 * cunemp_rate) + I(100 * cpctadm) + conrmbdcst, data = stdnts10pct_4yr) 
+stargazer(mlm_complete_10pct4yr, out = "Table Outputs/Regression Outputs/mlm_complete_10pct4yr.tex",
+          title = "Complete Regression on Subset",
+          dep.var.labels = "median rent as percentage of income",
+          covariate.labels = c("student share of population",
+                               "college housing capacity",
+                               "total housing",
+                               "no. working outside county",
+                               "unemployment rate (county)",
+                               "pct. admitted",
+                               "on-campus room & board cost"))
+
 #------------------------------------------------
 # 4. Summary Statistics table for presentation
 #------------------------------------------------
 # 4.1 Full Summary Statistics
 full_sum_stats_df <- analysis_df %>%
   select(cestimate_medrentpctinc, cstudent_to_pop, croomcap, cestimate_tothsg, cestimate_workoutcty,
-         cunemp_rate, cpctadm, conrmbdcst)
+         cunemp_rate, cpctadm, conrmbdcst) %>%
+  mutate(cstudent_to_pop = 100 * cstudent_to_pop,
+         cunemp_rate = 100 * cunemp_rate,
+         cpctadm = 100 * cpctadm)
 stargazer(as.data.frame(full_sum_stats_df), out = "Table Outputs/Summary Statistics/full_sum_stats_df.tex")
 
 # 4.2 Summary Statistics for 10% 4-yr colleges/cities
 sum_stats_10pct4yr <- stdnts10pct_4yr %>%
   select(cestimate_medrentpctinc, cstudent_to_pop, croomcap, cestimate_tothsg, cestimate_workoutcty,
-         cunemp_rate, cpctadm, conrmbdcst)
+         cunemp_rate, cpctadm, conrmbdcst) %>%
+  mutate(cstudent_to_pop = 100 * cstudent_to_pop,
+         cunemp_rate = 100 * cunemp_rate,
+         cpctadm = 100 * cpctadm)
 stargazer(as.data.frame(sum_stats_10pct4yr), out = "Table Outputs/Summary Statistics/sum_stats_10pct4yr.tex")
