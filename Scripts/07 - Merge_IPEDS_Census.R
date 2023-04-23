@@ -58,6 +58,7 @@ census_places <- census_places %>%
                            place == "Macon-Bibb County" ~ "Macon",
                            place == "Port Hadlock-Irondale" ~ "Port Hadlock",
                            place == "Helena-West Helena" ~ "Helena",
+                           place == "Augusta-Richmond County consolidated government (balance)" ~ "Augusta",
                            TRUE ~ as.character(place)))
 
 IPEDS <- IPEDS %>%
@@ -118,6 +119,16 @@ IPEDS <- IPEDS %>%
                            place == "Norton" & state == "Massachusetts" ~ "Norton Center",
                            str_detect(place, "Silver Spring") ~ "Silver Spring",
                            place == "South Fallsburgh" ~ "South Fallsburg",
+                           place == "Mississippi State" ~ "Starkville",
+                           place == "Bridgewater" & state == "Massachusetts" & year == 2019 ~ "Bridgewater Town",
+                           place == "Conception" & state == "Missouri" ~ "Conception Junction",
+                           instnm == "Concordia University-Saint Paul" ~ "North St. Paul",
+                           instnm == "Hamline University" & state == "Minnesota" ~ "North St. Paul",
+                           instnm == "Macalester College" & state == "Minnesota" ~ "North St. Paul",
+                           place == "Fond Du Lac" ~ "Fond du Lac",
+                           place == "N Little Rock" ~ "North Little Rock",
+                           place == "West  Point" ~ "West Point",
+                           place == "Superior" ~ "Superior city",
                            TRUE ~ as.character(place)))
 
 # 3.5 Try merging again
@@ -131,10 +142,10 @@ merge_test_2 <- full_join(census_places, IPEDS, by = c("year" = "year",
 # 3.6 Difference between first and second merge
 merge_diffs <- anti_join(merge_test, merge_test_2)
 
-# 3.7 Drop missing instnm values and missing GEOID variables to get merged dataset
-merge_test_2 <- merge_test_2 %>%
-  filter(!is.na(instnm)) %>%
-  filter(!is.na(GEOID))
+# 3.7 Colleges that are still missing
+missing_colleges_2 <- merge_test_2 %>%
+  filter(is.na(GEOID)) %>%
+  filter(!is.na(state))
 
 #------------------------------------------------
 # 4. Troubleshoot Merging Counties
@@ -145,10 +156,119 @@ merge_test_3 <- full_join(merge_test_2, census_counties, by = c("year" = "year",
                                                                 "state" = "state"),
                           suffix = c(".city", ".county"))
 
-# 4.2 Drop counties without colleges
-merged_final <- merge_test_3 %>%
-  filter(!is.na(GEOID.city)) %>%
+# 4.2 Check missing colleges 
+missing_colleges_3 <- merge_test_3 %>%
+  filter(is.na(GEOID.county)) %>%
+  filter(!is.na(state)) %>%
+  filter(!is.na(unitid))
+
+# Fix county names
+merge_test_2 <- merge_test_2 %>%
+  mutate(county = str_replace_all(county, " City", " city"))
+
+# Check merge
+merge_test_4 <- full_join(merge_test_2, census_counties, by = c("year" = "year",
+                                                                "county" = "county",
+                                                                "state" = "state"),
+                          suffix = c(".city", ".county"))
+
+missing_colleges_4 <- merge_test_4 %>%
+  filter(is.na(GEOID.county)) %>%
+  filter(!is.na(state)) %>%
+  filter(!is.na(unitid))
+
+# Fix county names
+IPEDS <- IPEDS %>%
+  mutate(county = case_when(county == "Marion County" & state == "Wisconsin" ~ "Fond du Lac County",
+                            rowid == "649" ~ "Madison County",
+                            rowid == "650" ~ "Anderson County",
+                            rowid == "1960" ~ "Brooke County",
+                            rowid == "1959" ~ "McPherson County",
+                            rowid == "2013" ~ "St. Joseph County",
+                            rowid == "2014" ~ "Ramsey County",
+                            rowid == "2015" ~ "Carroll County",
+                            rowid == "5404" ~ "Boone County",
+                            rowid == "5405" ~ "Richland County",
+                            rowid == "5403" ~ "Tuolumne County",
+                            rowid == "7659" ~ "Franklin County",
+                            rowid == "8865" ~ "Baldwin County",
+                            rowid == "11515" ~ "Johnson County",
+                            rowid == "12729" ~ "Cole County",
+                            rowid == "12730" ~ "Chester County",
+                            rowid == "17125" ~ "Montgomery County",
+                            rowid == "21799" ~ "San Diego County",
+                            rowid == "21800" ~ "Cowley County",
+                            rowid == "22159" ~ "Anne Arundel County",
+                            instnm == "St. John's College" & state == "New Mexico" ~ "Santa Fe County",
+                            rowid == "22359" ~ "Rice County",
+                            rowid == "22360" ~ "Orleans County",
+                            rowid == "24273" ~ "Knox County",
+                            rowid == "24274" ~ "Lancaster County",
+                            rowid == "24275" ~ "Schenectady County",
+                            instnm == "University of Alaska Southeast" ~ "Juneau City and Borough",
+                            rowid == "25965" ~ "Dallas County",
+                            rowid == "26550" ~ "Harris County",
+                            rowid == "26549" ~ "Ramsey County",
+                            county == "Carson city" ~ "Carson City",
+                            rowid == "28193" ~ "Callaway County",
+                            rowid == "28194" ~ "Lawrence County",
+                            rowid == "28195" ~ "Salt Lake County",
+                            rowid == "13509" ~ "Marion County",
+                            rowid == "15805" | rowid == "15825" ~ "Dona Ana County",
+                            TRUE ~ as.character(county)))
+
+census_counties <- census_counties %>%
+  mutate(county = str_replace_all(county, " city", " City"))
+
+# 4.3 Try merging again
+merge_test_5 <- full_join(census_places, IPEDS, by = c("year" = "year",
+                                                       "place" = "place",
+                                                       "state" = "state"))%>%
+  relocate(c("instnm", "county"), .after = "GEOID") %>%
+  relocate("rowid", .before = "GEOID") %>%
+  arrange(instnm)  
+
+merge_test_5 <- full_join(merge_test_5, census_counties, by = c("year" = "year",
+                                                                "county" = "county",
+                                                                "state" = "state"),
+                          suffix = c(".city", ".county"))
+
+# Check missing
+missing_colleges_5 <- merge_test_5 %>%
+  filter(is.na(GEOID.county)) %>%
+  filter(!is.na(state)) %>%
+  filter(!is.na(unitid))
+
+merged_final <- merge_test_5 %>%
+  relocate(unitid, .before = instnm)
+
+sapply(merged_final, function(x) sum(is.na(x)))
+
+# 4.2 Drop unmatched observations
+merged_final <- merged_final %>%
+  filter(!is.na(GEOID.city) & !is.na(GEOID.county)) %>%
   relocate(GEOID.county, .before = "county")
+
+sapply(merged_final, function(x) sum(is.na(x)))
+
+# 4.2.b Check for uneven observations of colleges
+uneven_colleges <- merged_final %>%
+  filter(!is.na(unitid)) %>%
+  add_count(unitid) %>%
+  filter(n != 2) %>%
+  select(unitid) %>%
+  as_vector()
+
+# 4.2 Drop uneven colleges
+merged_final <- merged_final %>%
+  filter(!(unitid %in% uneven_colleges))
+
+# 4.2 Check for uneven observations
+uneven_2 <- merged_final %>%
+  filter(!is.na(unitid)) %>%
+  add_count(unitid) %>%
+  filter(n != 2)
+# 0 observations
 
 #------------------------------------------------
 # 5. Export Data

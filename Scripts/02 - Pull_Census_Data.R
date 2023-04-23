@@ -29,13 +29,10 @@ census_api_key("88b41677ffc27c7960073bc1b0a2e01ab29ced6b")
 #------------------------------
 
 #------------------------------------------------
-# 3. Create lists of cities by state
+# 3. Create vector of state names
 #------------------------------------------------
 # 3.1 Load IPEDS data frame
 IPEDS <- readRDS("./Data/IPEDS/Exported IPEDS Data/IPEDS_cleaned_2.rds")
-
-# 3.2 Create master list to hold all cities
-cities_by_state <- vector("list", 56)
 
 # 3.3 Create vector of alphabetically sorted state names 
 state_names <- IPEDS %>%
@@ -44,20 +41,6 @@ state_names <- IPEDS %>%
   filter(!is.na(state)) %>%
   arrange(state) %>%
   as_vector()
-
-# 3.4 Name each list element as a state
-names(cities_by_state) <- state_names
-
-# 3.5 Insert list of unique cities by state into master list
-for (i in seq_along(state_names)) {
-  state_cities <- IPEDS %>%
-    filter(state == state_names[i]) %>%
-    select(city) %>%
-    distinct()
-  
-  cities_by_state[[i]] <- as.list(state_cities$city)
-  rm(state_cities)
-}
 
 #------------------------------------------------
 # 4. Pull Data
@@ -118,4 +101,3 @@ census_counties <- bind_rows(county_level_2014, county_level_2019)
 saveRDS(census_cities, "./Data/Census/census_cities_raw.rds")
 saveRDS(census_counties, "./Data/Census/census_counties_raw.rds")
 saveRDS(census_vars, "./Data/Census/census_vars.rds")
-saveRDS(cities_by_state, "./Data/Census/cities_by_state.rds")

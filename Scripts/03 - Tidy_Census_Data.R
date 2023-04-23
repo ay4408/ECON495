@@ -41,6 +41,9 @@ census_counties_tidy <- census_counties_raw %>%
               names_vary = "slowest") %>%
   ungroup()
 
+# Remove raw data frames
+rm(census_cities_raw, census_counties_raw)
+
 # 3.2 Separate NAME variable into county and state variables
 census_counties_tidy <- census_counties_tidy %>%
   mutate(state = NAME %>%
@@ -58,18 +61,31 @@ census_places_tidy <- census_places_tidy %>%
            str_remove(",.+")) %>%
   rename(place = NAME)
 
+# Check for missing place or state values
+sapply(census_counties_tidy, function(x) sum(is.na(x)))
+sapply(census_places_tidy, function(x) sum(is.na(x)))
+
 # 3.3 Remove census place category labels
-census_places_tidy <- census_places_tidy %>%
+census_places_tidy_nolabs <- census_places_tidy %>%
   mutate(place = place %>%
            str_remove(" city| CDP| town| borough| village"))
 
-# 3.5 Load IPEDS data to check for wonky city names
-IPEDS <- read_rds("./Data/IPEDS/Exported IPEDS Data/IPEDS_cleaned_2.rds")
+# Identify matching values within states
+check_matching <- census_places_tidy_nolabs %>%
+  add_count(state, place, name = "dupes") %>%
+  filter(dupes > 2)
+# 385 "duplicates" by state
 
-# 3.5 Fix Augusta-Richmond County consolidated government
+# 3.4 Create vector of names that should not be de-labeled
+dup_GEOID <- check_matching %>%
+  distinct(GEOID) %>%
+  select(GEOID) %>%
+  as_vector()
+
+# 3.5 Remove census place category labels EXCEPT for specified places
 census_places_tidy <- census_places_tidy %>%
-  mutate(place = if_else(place == "Augusta-Richmond County consolidated government (balance)",
-                         "Augusta", place))
+  mutate(place = 
+           if_else(GEOID %in% dup_GEOID, place, str_remove(place, " city| CDP| town| borough| village")))
 
 #------------------------------------------------
 # 4. Export Data

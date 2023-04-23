@@ -61,11 +61,11 @@ merged_data <- read_rds("./Data/Merged Datasets/merged_final.rds")
 #------------------------------------------------
 # 4.1 Derive student to population ratio
 merged_data <- merged_data %>%
-  mutate(student_to_pop = round(enrtot / estimate_totpop, 4), .after = year)
+  mutate(student_to_pop = round(enrtot / estimate_totpop, 4) * 100, .after = year)
 
 # 4.2 Derive unemployment rate
 merged_data <- merged_data %>%
-  mutate(unemp_rate = round(estimate_unemp / estimate_lbrfrc, 2), .after = moe_unemp)
+  mutate(unemp_rate = round(estimate_unemp / estimate_lbrfrc, 2) * 100, .after = moe_unemp)
 
 #------------------------------------------------
 # 5. Relocate variables
@@ -103,31 +103,28 @@ merged_data <- merged_data %>%
 # 7. Difference Variables
 #------------------------------------------------
 # 7.1 Function to difference variables
-first_diff <- function(df, variable, new_variable_name) {
-  df <- df %>%
-    mutate(diff_variable = if_else(year == 2014,
-                                     0,
-                                     df[[variable]] - lag(df[[variable]])), .after = variable) %>%
-    # Coerce values of difference in year 2014 to be NA
-    mutate(diff_variable = replace(diff_variable, year == 2014, NA)) %>%
-    rename_with(~ new_variable_name, diff_variable)
-}
+# first_diff <- function(df, variable, new_variable_name) {
+#  df <- df %>%
+#    mutate(diff_variable = if_else(year == 2014,
+#                                     0,
+#                                     df[[variable]] - lag(df[[variable]])), .after = variable) %>%
+#    # Coerce values of difference in year 2014 to be NA
+#    mutate(diff_variable = replace(diff_variable, year == 2014, NA)) %>%
+#    rename_with(~ new_variable_name, diff_variable)
+#}
 
 # 7.2 Create list of variables to difference
-vars_to_diff <- merged_data %>%
-  select(student_to_pop:pctremo) %>%
-  colnames()
-
-diff_names <- paste0("c", vars_to_diff)
+#vars_to_diff <- merged_data %>%
+#  select(student_to_pop:pctremo) %>%
+#  colnames()
+#
+#diff_names <- paste0("c", vars_to_diff)
 
 # 7.3 Difference
-for (i in seq(vars_to_diff)) {
-  merged_data <- merged_data %>%
-    first_diff(vars_to_diff[i], diff_names[i])
-}
-
-# 7.4 Keep all values as whole numbers
-
+#for (i in seq(vars_to_diff)) {
+#  merged_data <- merged_data %>%
+#    first_diff(vars_to_diff[i], diff_names[i])
+#}
 
 #------------------------------------------------
 # 8. Export Analysis Dataset

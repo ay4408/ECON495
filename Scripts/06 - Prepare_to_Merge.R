@@ -10,6 +10,7 @@
 #------------------------------------------------
 # 1.1 Load packages
 library(tidyverse)
+library(openxlsx)
 
 # 1.2 Check working directory
 getwd()
@@ -46,11 +47,11 @@ IPEDS <- IPEDS %>%
 
 # 3.1.2 Function to calculate average percentages
 avg_pct <- function(pct, tot) {
-  round(sum(pct * tot, na.rm = T) / sum(tot, na.rm = T), 2)
+  round(sum((pct / 100) * tot, na.rm = T) / sum(tot, na.rm = T), 2) * 100
 }
 
 IPEDS <- IPEDS %>%
-  group_by(instnm, yrgroup) %>%
+  group_by(unitid, yrgroup) %>%
   mutate(pctadm = avg_pct(pctadm, applcn),
          pctret = avg_pct(pctret, enrft),
          pctyoung = avg_pct(pctret, efug),
@@ -62,7 +63,7 @@ IPEDS <- IPEDS %>%
 
 # 3.1.3 Calculate averages for other numerical variables
 IPEDS <- IPEDS %>%
-  group_by(instnm, yrgroup) %>%
+  group_by(unitid, yrgroup) %>%
   mutate(roomcap = mean(roomcap, na.rm = T),
          avgintuit = mean(avgintuit, na.rm = T),
          avgouttuit = mean(avgouttuit, na.rm = T),
@@ -76,15 +77,50 @@ IPEDS <- IPEDS %>%
          genrollft = mean(genrollft, na.rm = T)) %>%
   ungroup()
 
+sapply(IPEDS, function(x) sum(is.nan(x)))
+
+not_numbers <- IPEDS %>%
+  filter(is.nan(avgintuit))
+
 # 3.2 Coerce NaN values to NA (periods for which there is no data)
 IPEDS <- IPEDS %>%
   mutate(across(everything(), ~replace(.x, is.nan(.x), NA)))
 
-# 3.3 Keep only two observations (everything should already be
-# averaged)
-IPEDS <- IPEDS %>%
-  filter(year == 2014 | year == 2019) %>%
-  mutate(year = NULL) %>%
+# 3.3 Identify colleges with less than 4 observations per group
+IPEDS_missing <- IPEDS %>%
+  group_by(unitid, yrgroup) %>%
+  filter(n() < 4) %>%
+  arrange(instnm) %>%
+  ungroup()
+
+# 3.3.a Filter IPEDS to colleges with at least 4 observations in either 5-year period
+IPEDS_4obs <- IPEDS %>%
+  group_by(unitid, yrgroup) %>%
+  summarize(count = n()) %>%
+  ungroup() %>%
+  filter(count >= 4) %>%
+  group_by(unitid) %>%
+  add_count() %>%
+  ungroup()
+
+# 3.3.b Create vector of college ids that have at least 4 obs. in BOTH 5-year periods
+obs4_unitids <- IPEDS_4obs %>%
+  filter(n == 2) %>%
+  select(unitid) %>%
+  unique() %>%
+  as_vector()
+
+# 3.3.c Filter to colleges with at least 4 obs. in both 5-year periods
+IPEDS_4obs <- IPEDS %>%
+  filter(unitid %in% obs4_unitids)
+
+# 3.3 Filter to last observation in each year group
+IPEDS_avg <- IPEDS_4obs %>%
+  group_by(unitid, yrgroup) %>%
+  slice_tail() %>%
+  ungroup() %>%
+  arrange(instnm, unitid) %>%
+  select(-year) %>%
   rename(year = yrgroup)
 
 # 3.4 Adjust dollar-denominated values for inflation
@@ -92,7 +128,7 @@ IPEDS <- IPEDS %>%
 inf_adj_fctr = CPI$yravg[2] / CPI$yravg[1]
 
 # 3.4.2 Apply inflation adj. factor to dollar-denominated values in 2014
-IPEDS <- IPEDS %>%
+IPEDS_avg <- IPEDS_avg %>%
   mutate(avgintuit = if_else(year == 2014, 
                                       avgintuit * inf_adj_fctr,
                                       avgintuit),
@@ -107,7 +143,7 @@ IPEDS <- IPEDS %>%
                               offrmbdcst))
 
 # 3.5 Rename IPEDS variables that are in Census
-IPEDS <- IPEDS %>%
+IPEDS_avg <- IPEDS_avg %>%
   rename(county = countynm,
          place = city)
 #------------------------------------------------
@@ -125,4 +161,4 @@ census_counties <- census_counties %>%
 #------------------------------------------------
 saveRDS(census_counties, "./Data/Census/Exported Census Data/census_counties_to_merge.rds")
 saveRDS(census_places, "./Data/Census/Exported Census Data/census_places_to_merge.rds")
-saveRDS(IPEDS, "./Data/IPEDS/Exported IPEDS Data/IPEDS_to_merge.rds")
+saveRDS(IPEDS_avg, "./Data/IPEDS/Exported IPEDS Data/IPEDS_to_merge.rds")

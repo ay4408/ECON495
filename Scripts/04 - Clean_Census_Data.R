@@ -76,11 +76,29 @@ census_places_tidy <- census_places_tidy %>%
          moe_medinc = if_else(year == 2014,
                               moe_medinc * inf_adj_fctr,
                               moe_medinc))
+
+# 3.6 Check for missing values
+sapply(census_places_tidy, function(x) sum(is.na(x)))
+# 3.6.a Remove all cities without medrentpctinc (because it is main explanatory variable)
+census_places_tidy <- census_places_tidy %>%
+  group_by(GEOID) %>%
+  filter(!any(is.na(estimate_medrentpctinc))) %>%
+  ungroup()
+
+# Check for missing values again
+sapply(census_places_tidy, function(x) sum(is.na(x)))
+
+# Get new summary statistics of numerical variables
+get_sumsts(census_places_tidy)
+
 #------------------------------------------------
 # 4. Clean Census counties data
 #------------------------------------------------
 # 4.1 Get summary statistics of numerical variables
 get_sumsts(census_counties_tidy)
+
+# 4.2 Check for missing values
+sapply(census_counties_tidy, function(x) sum(is.na(x)))
 
 #------------------------------------------------
 # 5. Export Data

@@ -70,36 +70,27 @@ cols_to_factor <- c("year", "alloncam", "room", "instsize",
 
 IPEDS[,cols_to_factor] <- lapply(IPEDS[cols_to_factor], as.factor)
 
-# 3.5 Coerce to percentages
-# Create function to divide by 100 (for use with dplyr)
-convert_to_pct <- function (x) {
-  x / 100
-}
-
-IPEDS <- IPEDS %>%
-  mutate(across(starts_with("pct"), convert_to_pct))
-
-# 3.6 Coerce to characters
+# 3.5 Coerce to characters
 cols_to_chr <- c("unitid", "countycd")
 
 IPEDS[,cols_to_chr] <- lapply(IPEDS[cols_to_chr], as.character)
 
-# 3.7 Move geographic variables to one group
+# 3.6 Move geographic variables to one group
 IPEDS <- IPEDS %>%
   relocate(c("stabbr", "fips", "region", "locale"), .after = countynm) %>%
   relocate(c("applcn", "pctadm"), .after = genrollft)
 
-# 3.8 Standardize countynm variable
+# 3.7 Standardize countynm variable
 IPEDS <- IPEDS %>%
   mutate(countynm = countynm %>%
            str_remove(",.+")) %>%
   mutate(countynm = if_else((year == 2014) & (!is.na(lag(countynm))), lead(countynm), countynm))
 
-# 3.9 Fix erroneous city values
-# 3.9.a Check for strange city names
+# 3.8 Fix erroneous city values
+# 3.8.a Check for strange city names
 dup <- IPEDS %>%
   filter(city == "University" | str_detect(city, "University"))
-# 3.9.b Change city values (used internet for correct city names)
+# 3.8.b Change city values (used internet for correct city names)
 IPEDS <- IPEDS %>%
   mutate(city = case_when(city == "Auburn University" ~ "Auburn",
                           city == "Niagara University" ~ "Lewiston",
@@ -107,15 +98,40 @@ IPEDS <- IPEDS %>%
                           city == "University of Richmond" ~ "Richmond",
                           TRUE ~ as.character(city))) 
 
-# 3.10 Change state abbreviation to full name
-# 3.10.a Load in table of fips codes and state names
+# 3.9 Change state abbreviation to full name
+# 3.9.a Load in table of fips codes and state names
 state_names <- read_tsv("01 Alabama.txt") %>%
   mutate(fips = as.factor(fips))
 
-# 3.10.b Change abbreviations to full names
+# 3.9.b Change abbreviations to full names
 IPEDS <- left_join(IPEDS, state_names) %>%
   mutate(stabbr = state, state = NULL) %>%
   rename(state = stabbr)
+
+#------------------------------------------------
+# 4. Check for Missing Values
+#------------------------------------------------
+# 4.1 Print all missing values by variable
+print("Count of missing values by variable")
+sapply(IPEDS, function(x) sum(is.na(x)))
+
+# 4.2 Identify all observations without a state observation
+missing_state <- IPEDS %>%
+  filter(is.na(state))
+
+# 4.3 Identify the observation with a missing county name
+missing_county <- IPEDS %>%
+  filter(is.na(countynm))
+
+# 4.3.b Assign "Kings County" to observation
+IPEDS <- IPEDS %>%
+  mutate(countynm = case_when(is.na(countynm) ~ "Kings County",
+                              TRUE ~ countynm))
+
+# Check missing values again
+print("Count of missing values by variable")
+sapply(IPEDS, function(x) sum(is.na(x)))
+
 #------------------------------------------------
 # 4. Export Data
 #------------------------------------------------
